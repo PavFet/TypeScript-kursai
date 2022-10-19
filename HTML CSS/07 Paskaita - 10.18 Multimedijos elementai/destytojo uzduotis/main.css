@@ -1,0 +1,303 @@
+
+.img1{
+  width: 300px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.img_1to5{
+  display: flex;
+}
+
+.img_5to10{
+  display: flex;
+}
+
+.position1{
+  width: 300px;
+  height: 400px;
+  background-image: url(./img/1.jpg);
+  background-size: cover;
+  position: relative;
+  left: 94px;
+  top: 50px;
+}
+
+.position2{
+  width: 300px;
+  height: 400px;
+  background-image: url(./img/2.jpg);
+  background-size: cover;
+  position: relative;
+  left: 94px;
+}
+
+.position3 {
+  width: 300px;
+  height: 400px;
+  background-image: url(./img/3.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+
+.position4 {
+  width: 300px;
+  height: 400px;
+  background-image: url(./img/4.jpg);
+  background-size: cover;
+  position: relative;
+  right: 40px;
+}
+
+.position5 {
+  width: 300px;
+  height: 400px;
+  background-image: url(./img/5.jpg);
+  background-size: cover;
+  position: relative;
+  right: 80px;
+  top: 50px;
+}
+
+.position6 {
+  width: 300px;
+  height: 400px;
+  background-image: url(./img/6.jpg);
+  background-size: cover;
+  position: relative;
+  left: 150px;
+  top: -101px;
+}
+
+.position7 {
+  width: 300px;
+  height: 400px;
+  background-image: url(./img/7.jpg);
+  background-size: cover;
+  position: relative;
+  bottom: 59px;
+}
+
+.position8 {
+  width: 300px;
+  height: 400px;
+  background-image: url(./img/8.jpg);
+  background-size: cover;
+  position: relative;
+  bottom: 40px;
+  right: 79px;
+}
+
+.position9 {
+  width: 300px;
+  height: 400px;
+  background-image: url(./img/9.jpg);
+  background-size: cover;
+  position: relative;
+  bottom: 41px;
+  right: 127px;
+}
+
+.position10 {
+  width: 300px;
+  height: 400px;
+  background-image: url(./img/10.jpg);
+  background-size: cover;
+  position: relative;
+  bottom: 70px;
+  right: 161px;
+}
+
+.position1:hover{
+  z-index: 5;
+}
+
+.position2:hover{
+  z-index: 5;
+}
+
+.position3:hover{
+  z-index: 5;
+}
+
+.position4:hover{
+  z-index: 5;
+}
+
+.position5:hover{
+  z-index: 5;
+}
+
+.position6:hover{
+  z-index: 5;
+}
+
+.position7:hover{
+  z-index: 5;
+}
+
+.position8:hover{
+  z-index: 5;
+}
+
+.position9:hover{
+  z-index: 5;
+}
+
+.position10:hover{
+  z-index: 5;
+}
+
+.position1{
+  display: flex;
+}
+
+
+
+.imgFull{
+  display: flex;
+}
+
+.displayNone1 {
+  opacity: 0;
+  border: 3px solid red;
+  height: 70px;
+  cursor: pointer;
+}
+
+
+.position1:hover .displayNone1{
+  transition: 3s ease;
+  opacity: 1;
+}
+
+.displayNoneText2{
+  font-size: 205px;
+  color: red;
+  
+}
+
+
+.displayNoneText{
+  text-align: center;
+  font-size: 18px;
+}
+
+.displayNone2{
+  text-align: center;
+  opacity: 0;
+  
+}
+
+.position1:hover .displayNone2{
+  opacity: 1;
+  transition: 8s;
+}
+
+
+
+.position2:hover .displayNone1{
+  transition: 3s ease;
+  opacity: 1;
+}
+
+.position2:hover .displayNone2{
+  opacity: 1;
+  transition: 8s;
+}
+
+.position3:hover .displayNone1{
+  transition: 3s ease;
+  opacity: 1;
+}
+
+.position3:hover .displayNone2{
+  opacity: 1;
+  transition: 8s;
+}
+
+.position4:hover .displayNone1{
+  transition: 3s ease;
+  opacity: 1;
+}
+
+.position4:hover .displayNone2{
+  opacity: 1;
+  transition: 8s;
+}
+
+.position5:hover .displayNone1{
+  transition: 3s ease;
+  opacity: 1;
+}
+
+.position5:hover .displayNone2{
+  opacity: 1;
+  transition: 8s;
+}
+
+.position6:hover .displayNone1{
+  transition: 3s ease;
+  opacity: 1;
+}
+
+.position6:hover .displayNone2{
+  opacity: 1;
+  transition: 8s;
+}
+
+.position7:hover .displayNone1{
+  transition: 3s ease;
+  opacity: 1;
+}
+
+.position7:hover .displayNone2{
+  opacity: 1;
+  transition: 8s;
+}
+
+.position8:hover .displayNone1{
+  transition: 3s ease;
+  opacity: 1;
+}
+
+.position8:hover .displayNone2{
+  opacity: 1;
+  transition: 8s;
+}
+
+.position9:hover .displayNone1{
+  transition: 3s ease;
+  opacity: 1;
+}
+
+.position9:hover .displayNone2{
+  opacity: 1;
+  transition: 8s;
+}
+
+.position10:hover .displayNone1{
+  transition: 3s ease;
+  opacity: 1;
+}
+
+.position10:hover .displayNone2{
+  opacity: 1;
+  transition: 8s;
+}
+
+.displayNoneText:hover{
+  font-size: 30px;
+  color: white;
+  transition: 2s ease;
+}
+
+.displayNone1:hover {
+  background-color: rgba(0, 0, 0, 0.258);
+  background-size: contain;
+  transition: 3s ease;
+  font-size: 30px;
+  color: white;
+}
+

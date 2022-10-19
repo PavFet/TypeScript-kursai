@@ -1,0 +1,59 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+body{
+  height: 350vh;
+  background-image: url(https://images.all-free-download.com/images/graphiclarge/cinema_picture_6_167709.jpg);
+  background-size: contain;
+  background-position: no-repeat;
+}
+
+.anonsas{
+  position: fixed;
+  width: 150px;
+  height: 100%;
+  background-color: rgb(45, 45, 45);
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+ul{
+  padding-left: 15px;
+
+}
+a:hover{
+  color: red;
+  font-size: 30px;
+}
+
+
+.fullContent{
+  margin-left: 170px;
+  position: relative;
+  top: 150px;
+  width: 559px;
+  border: 4px double red;
+  border-radius: 13px;
+  margin-bottom: 40px;
+  background-color: rgba(181, 247, 76, 0.689);
+}
+
+
+h1{
+  margin-left: 170px;
+  color: white;
+}
+
+h4{
+  text-align: center;
+}
+

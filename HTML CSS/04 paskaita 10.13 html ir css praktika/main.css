@@ -1,0 +1,81 @@
+body{
+    height: 500vh;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+
+}
+
+.slepti{
+    display: none;
+}
+
+
+.aukstasElementas{
+    height: 150vh;
+    background-color: grey;
+}
+
+.kvadratas{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px dotted black;
+    background-color: aqua;
+    color: darkgoldenrod;
+    font-size: 14px;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+}
+
+.top_20{
+    top: 20px;
+}
+
+.left_50{
+    left: 50px;
+}
+
+
+.z_index_-1{
+    z-index: -1;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.right_50{
+    right: 50px;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.bottom_100{
+    bottom: 100px;
+}
+
+.sticky{
+    position: sticky;
+}
+
+.displayNone2{
+    
+}

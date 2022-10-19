@@ -1,0 +1,62 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+html{
+scroll-behavior: smooth;
+}
+
+body{
+  height: 1000vh;
+}
+
+header{
+  text-align: center;
+}
+
+.menu{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #0C680B;
+}
+
+.about{
+  padding: 0 50px 0 50px;
+}
+
+.mainImg{
+  text-align: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+
+h1{
+  position: relative;
+  left: 82px;
+  background-color: #0C680B;
+  color: white;
+  max-width: 1088px;
+  padding-left: 12px;
+}
+
+
+p{
+  position: relative;
+  left: 82px;
+  max-width: 1120px;
+  font-weight: 700;
+}
+
+.main{
+  background-color:#EEEEEE;
+}
+
+.lastP{
+  background-color: #D7FFD7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+

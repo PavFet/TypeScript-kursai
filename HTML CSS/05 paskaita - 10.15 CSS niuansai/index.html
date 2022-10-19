@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>5 paskaita !! - CSS niuansai</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+
+    </nav>
+  </header>
+  <main>
+    <!-- Teviniai / veikiniai -->
+    <section>
+      <h1>Teviniai ir vaikiniai elementai</h1>
+      <p>
+        Elementas esantis kazkokio elemento viduje, yra vaikinis elemantas, tam elementui, kurio viduje jis yra. <br>
+        Elementas turintis savo viduje kita elementa, yra tevinis elemntas, tam kitam elementams, kuris yra jo viduje.
+      </p>
+      <ul>
+        <li>ul vaikas1</li>
+        <li>ul vaikas2</li>
+        <li>
+          ul vaikas3; ol tevas
+          <ol>
+            <!-- li3  vaikas-->
+            <li>ol vaikas1</li>
+            <li>ol vaikas2</li>
+            <li>ol vaikas3</li>
+          </ol>
+        </li>
+        <li>ul vaikas4</li>
+      </ul>
+    </section>
+    <!-- Paveldejimas -->
+    <section>
+      <h1>Paveldejimas</h1>
+      <p>
+        Is protevinio elemento, vaikiniai elementai paveldi tam tikrus stilius. Paveldimi stiliai dazniausiai buna
+        kazkas paprasto kaip: teksto spalva, sriftas, dydis ir pns... Nepaveldimi yra dydzio, display, fono, remeliu ir
+        pns. nustatymai.
+      </p>
+      <ul class="paveldim">
+        <li>pirmas</li>
+        <li>antras</li>
+        <li>
+          trecias
+          <ul>
+            <li>trecio pirmas</li>
+            <li>trecio antras</li>
+            <li>trecio trecias</li>
+          </ul>
+        </li>
+        <li>ketvirtas</li>
+      </ul>
+    </section>
+    <!--  Stiliu prioritetai -->
+    <section>
+      <h1>Stiliu prioritetai</h1>
+      <ol>
+        <li>Inline style (prie tago HTMLe parasius style="")</li>
+        <li>ID</li>
+        <li>Class</li>
+        <li>Element Selector</li>
+        <li>CSS order (in CSS code)</li>
+        <li>Element default style</li>
+        <li>Inheritence</li>
+      </ol>
+      <p>
+      Esant dviem selektoriam, kurie nusako to paties elemento vienodus stilius yra atsizvelgiama i tu selektoriu prioritetus. Auksciau esantys selektoriai, turi didesni prioriteta (ziureti i sarasa) <br>
+      Esant dviem vienodo prioriteto selektoriams (keiciant vienoda stiliu) yra atsizvelgiama i CSS eiliskuman (kuris CSS parasytas veliau, tas ir bus taikomas)
+    </p>
+    <p>
+      <span class="warning">JEIGU IMANOMA - NENAUDOTI</span>
+      !important prierasas prie stiliaus ignoruoja visus prioritetus ir suteikia ta stiliu ir niekas jo pakeist negali apart kito !important, kuris turetu aukstesni prioriteta.  <br>
+    </p>
+    </section>
+    <!-- Browser Default Styles -->
+    <section>
+<h1>Browser Default Styles</h1>
+<h2>Browser Default Styles</h2>
+<p>
+  Tagai gali tureti savitus stilius, kurie jiems suteikiami paciu narsykliu. <br>
+  Kartais skirstingos narsykles turi minimalistiskai skirtingus numatytuosius stilius. Tai gali paveikti svetaines isvaizda. <br> Kartais numatytieji stiliai  pagadina svetaines vaizda arba apsunkina programuotojo darba.
+</p>
+<p>
+  Yra keletas budu spresti nenorimu numatytu stiliu sukeliamas problemas. <br>
+  Vienas is budu yra nuimti visus numatytuosius stilius nuo savo svetaineje naudojamu tagu: <a href="https://browserdefaultstyles.com/" target="_blank">RESET CSS</a> <br>
+  Kitas (placiau naudojamas) budas yra normalizuoti numatytuosius stilius tarp skirtingu narsykliu ir dali ju panaikinti/pakeisti naudojant <a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize CSS</a>.
+</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2022 by Pav
+  </footer>
+</body>
+
+</html>

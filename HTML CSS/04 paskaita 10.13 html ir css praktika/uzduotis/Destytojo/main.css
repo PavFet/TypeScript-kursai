@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  height: 500vh;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(249,238,72,1) 0%, rgba(90,208,205,0.15731503783153888) 62%, rgba(106,189,101,0.3281833851704744) 100%);
+}
+
+h2{
+  text-align: center;
+}
+
+img{
+  width: 130px;
+}
+
+a{
+  text-decoration: rgb(0, 117, 128) wavy underline;
+  display: inline-block;
+  font-family: 'Pacifico', cursive;
+}
+
+
+
+.menu{
+  background:  radial-gradient(circle, rgb(63, 94, 251) 0%, rgba(249, 237, 72) 0%, rgba(90, 208, 204) 62%, rgba(105, 189, 101) 100%);;
+  text-align: center;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 5;
+
+}
+
+.stickyMenu{
+  height: 500vh;
+
+}
+
+.titulinis{
+  padding-top: 10px;
+}
+
+.aprasymas{
+  padding-top: 20px;
+}
+
+.images{
+  padding-top: 20px;
+}
+
+.all_images{
+  position: relative;
+  text-align: center;
+}
+
+
+
+.imgWithSpan1{
+  position: absolute;
+  right: 50%;
+}
+
+.imgWithSpan2{
+  position: absolute;
+  right: 227px;
+  bottom: -108px;
+}
+
+
+.imgWithSpan3{
+  position: absolute;
+  right: 280px;
+    bottom: -243px;
+}
+
+
+.imgWithSpan4{
+  position: absolute;
+  right: 130px;
+  bottom: -244px;
+}
+
+
+.imgWithSpan5{
+  position: absolute;
+  right: 40px;
+}

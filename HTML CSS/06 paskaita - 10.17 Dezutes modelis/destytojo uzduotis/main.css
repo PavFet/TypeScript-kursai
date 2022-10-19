@@ -1,0 +1,233 @@
+
+body{
+  background-color: rgb(221, 224, 227);
+  height: 1000vh;
+}
+
+
+
+
+.card1{
+  background: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersinfinitywar_lob_mas_hlf_01_3.jpg) no-repeat center;
+  width: 100%;
+  border: 2px solid red;
+  height: 200px;
+  display: flex;
+}
+
+
+
+.movieInfo{
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  margin: 40px 0 0 20px;
+  border: 2px solid red;
+  cursor: pointer;
+  background-color: rgba(255, 73, 73, 0.44);
+}
+
+.movieInfo p{
+  font-weight: bold;
+  font-size: 19px;
+  
+}
+
+.displayNoneText{
+  width: 300px;
+  height: 100%;
+  padding-left: 40px;
+  font-weight: bold;
+  color: white;
+  transition: 3s ease;
+}
+
+
+
+.displayNone{
+  display: none;
+
+}
+
+.displayNone:hover{
+  background-color: rgba(255, 255, 255, 0.394);
+
+}
+
+.card1:hover .displayNone{
+  display: block;
+}
+
+.displayNoneText:hover{
+  color: black;
+}
+
+
+.card2{
+  background: url(https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg) no-repeat center;
+  width: 100%;
+  border: 2px solid rgb(19, 14, 14);
+  height: 200px;
+  display: flex;
+  position: relative;
+  }
+
+  .movieInfo2{
+    margin: 40px 0 20px  270px;
+    border: 5px double  rgb(0, 255, 217);
+    padding-bottom: 20px;
+  }
+
+
+
+  .movieInfo2 p{
+    font-weight: bold;
+    font-size: 19px;
+
+  }
+
+  .movieInfo2{
+    text-align: center;
+    padding-top: 10px;
+    background-color:rgba(255, 255, 255, 0.842);
+  }
+  
+
+  .displayNone2{
+   display: none;
+   opacity: 0.9;
+   transform: rotate(20deg);
+
+  }
+
+  .card2:hover .displayNone2{
+    display: block;
+
+  }
+
+  .card3{
+    background: url(https://lumiere-a.akamaihd.net/v1/images/p_drstrangeinthemultiverseofmadness_245_476cabb1.jpeg) no-repeat center;
+    width: 539px;
+    border: 5px dotted rgb(7, 7, 107);
+    border-radius: 15px;
+    height: 200px;
+    display: flex;
+    }
+
+    .movieInfo3{
+      width: 150px;
+      height: 100px;
+      text-align: center;
+      margin: 40px 0 0 20px;
+      border: 2px solid red;
+      cursor: pointer;
+      background-color: rgba(255, 219, 73, 0.44);
+      font-weight: bold;
+    font-size: 15px;
+    }
+
+
+  .displayNone3{
+    display: none;
+    width: 360px;
+    height: 100%;
+}
+
+.card3:hover .displayNone3{
+  display: block;
+
+}
+
+.displayNoneText3:hover{
+  background: rgb(212, 12, 12);
+  color: rgb(255, 255, 255);
+  transition: 2s;
+  font-size: 20px;
+}
+
+
+.card4{
+  background-image: url(cap.jpg);
+  border: 2px solid rgb(19, 14, 14);
+  height: 500px;
+  width: 300px;
+  border: 5px double rgb(107, 7, 54);
+    border-radius: 15px;
+}
+
+.movieInfo4{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 60px 0 0 60px;
+  border: 2px solid rgb(144, 136, 136);
+  cursor: pointer;
+  background-color: rgba(235, 225, 185, 0.671);
+  font-weight: bold;
+font-size: 15px;
+}
+
+.displayNoneText4{
+  width: 100%;
+  height: 100%;
+}
+
+.displayNone4{
+  display: none;
+  transition: 3s;
+
+}
+
+.card4:hover .displayNone4{
+  display: block;
+}
+
+.displayNone4:hover{
+  font-size: 25px;
+  color: white;
+  background-image: url(cap.jpg);
+  background-size: cover;
+}
+
+.movieInfo4:hover{
+  transition: 3s;
+  opacity: 0;
+}
+
+.card5{
+  background-image: url(https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_FMjpg_UX1000_.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 600px;
+}
+
+.movieInfo5{
+  width: 134px;
+  height: 96px;
+  text-align: center;
+  border: 2px solid rgb(205, 15, 15);
+  cursor: pointer;
+  background-color: rgba(105, 216, 127, 0.338);
+  font-weight: bold;
+font-size: 15px;
+position: relative;
+    left: 83px;
+    top: 168px;
+}
+
+.displayNone5{
+  display: none;
+  transition: 5s;
+  color: white;
+  background-color:rgba(0, 0, 0, 0.169);
+}
+
+.card5:hover .displayNone5{
+  display: block;
+}
+
+.displayNone5:hover{
+  font-size: 25px;
+  color: white;
+  background-color:rgba(0, 0, 0, 0.169);
+}

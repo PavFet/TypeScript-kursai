@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/HTML CSS/03 paskaita - 10.10 tema/styles/main.css">
+    <title>3 paskaita - CSS Ivadas</title>
+
+    <style>
+        h4{
+            color: pink;
+            border: 5px dashed rgb(0, 128, 0);
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS rasymo budai -->
+    <div class="slepiamas">
+<h1>CSS rasymo budai</h1>
+<p>
+    <b>Inline / Linijinis</b> - Stilizuojame elementa, suteikdami jam style atributa ir tame atribute nurodome stilius kabutese uz lygybes. <br> Dazniausiai naudojamas ant greituju pastilizuoti kazkoki elementa, patikrinti kaip atrodytu (testuoti). <br>
+    Style atributo viduje, rasomas kodas nera CSS sintakse.
+</p>
+<p style="color: red; background-color: black; font-size: 22px"> Inline pvz </p>
+
+<p>
+    <b>Internal / Vidinis</b> - Stilizuojame elementa, ji parinkdami selektoriaus pagalba, o pati CSS koda rasome head tago dalyje sukurtame style tage.
+    Dazniausiai naudojamas ant greituju kazka pastilizuoti, patikrinti kaip atrodytu stiliai/ius (testuoti).  (style style tegas)
+</p> 
+
+<h4>Internal pvz (9column)</h4>
+
+<p>
+    <b>External / Isorinis</b> -  Stilizuojame elementa, ji parinkdami selektoriaus pagalba, o pati CSS koda rasome atskirame CSS faile, kuri prijungiame prie HTML link tago pagalba <br>
+    Dazniausiai naudojamas CSS rasymo budas. Jo didziausi privalumai yra tvarka HTML faile ir dideles perpanaudojimo galimybes.
+</p>
+<button class="klasesPavadinimas slepiamas"> External pvz</button>
+    </div>
+    <!-- Basic selectors -->
+    <div class="slepiamas">
+    <h1>Selektoriai</h1>
+        <ul id="selektoriuSarasas slepiamas">
+            <li>element - parenka visus elementus (tagus) ir suteikia jiems nurodytus stilius</li>
+            <li>class - sukuriama rasant taska "." ir isgalvota pavadinima. Stiliai taikomi tiems elementams, kurie turi identiska class atributo pavadinima (nurodymas) </li>
+            <li>id -sukuriamas rasant groteles "#" ir isgalvota pavadinima. Stiliai taikomi tam lementui, kuris turi identiska id atributo pavadinima (nurodymas) </li>
+        </ul>
+        <p>
+            <span class="paryskintas">Klases</span> turi daug su daug santyki. Vienas elemntas gali tureti daug klasiu. Viena klase gali buti priskirta daugeliui elementu.
+        </p>
+        <p><span class="paryskintas">ID</span> turi vienas su vienu santyki. Vienas elemntas gali tureti TIK viena ID. Vienas ID turetu  buti priskirtas tik vienam elementui.
+        </p>
+    </div>
+        <!-- SPALVOS -->
+    <div class="slepiamas">
+<h1>Spalvos</h1>
+<ul>
+    <li><a href="https://htmlcolorcodes.com/" target="blank">Spalvos pavadinimas; </a>Yra 140 spalvu pavadinimu</li>
+    <li>RGB - Red Green Blue</li>
+    <li>HEX - #rrggbb</li>
+</ul>
+<p>RGB - Nurodai kiek kokios pagrindines spalvos nori imaisyti i isgaunama spalva. Kiekis nurodomas iki 0 iki 255. rgb(red, green, blue) <br> RGBA - red green blue alpha (opacity(permatomumas)). Norit prideti spalvui permatomumui, ketvirta parametra rgba(red, green, blue, alpha)</p>
+<p>
+    HEX - hexadecimal (sesioliktainis). Nurodai kiek kokios pagrindines spalvos nori imaisyti i isgaunama spalva.  Kiekis nurodoas nuo 00 iki FF. #rrggbb <br>
+    HEX with alpha (su permatomumu). Norint suteikti spalvai permatomuma, reikia prie  hex simboliu prideti viena pora simboliu, kurie nurodys permatomuma. #rrggbbaa <br>
+    00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b ...  ff <br>
+    Trumpiniai: jeigu spalva butu #aabbcc, galima ja trumpinti i #abc;  #ffffff -> #fff;
+</p>
+    </div>
+    <!-- display -->
+    <div class="slepiamas">
+        <h1>Display</h1>
+<ul>
+    <li>none - neatvazuojama ekrane</li>
+    <li>block - suteikimas blokinis stilius</li>
+    <li>inline - suteikiamas linijinis stilius</li>
+    <li>inline-block - suteikiamas linijinis-blokinis stilius</li>
+</ul>
+<p> 
+    block - uzima visa eilute ir galima keisti jo dydi.
+</p>
+<p>
+    inline - uzima tik tiek vietos kiek reikalauja content ir negalima keisti dydzio
+</p>
+<p>
+    inline-block  - uzima tiek vietos kiek reikalauja content ir galima keisti elemento dydi.
+</p>
+    </div>
+<div class="slepiamas">
+    <h3>inline-block</h3>
+    <div class="kvadratas inline">1</div>
+    <div class="kvadratas inline">2</div>
+    <div class="kvadratas inline">3</div>
+    <h3>Block</h3>
+    <div class="kvadratas block">1</div>
+    <div class="kvadratas block">2</div>
+    <div class="kvadratas block">3</div>
+    <h3>Inline-block</h3>
+    <div class="kvadratas inlineBlock">1</div>
+    <div class="kvadratas inlineBlock">2</div>
+    <div class="kvadratas inlineBlock">3</div>
+</div>
+<!-- Fonai -->
+<div class="didelisDiv fonoImage fonoSpalva slepiamas" >
+    <h1>Fonai</h1>
+</div>
+
+<!-- Sriftas ir tekstas -->
+<div class="tekstas slepiamas">
+<p>
+color -- naudojamas nustatyti teksto spalvą. <br>
+
+text-align -- naudojamas horizontaliam teksto lygiavimui nustatyti.<br> 
+
+vertical-align -- naudojamas vertikaliam teksto lygiavimui nustatyti.<br> 
+
+text-decoration -- naudojamas dekoracijoms nustatyti ar pašalinti iš teksto.<br> 
+
+text-transform -- naudojamas tekste nurodyti didžiąsias ir mažąsias raides.<br> 
+
+text-indent -- naudojamas nurodyti pirmosios teksto eilutės įtrauką.<br> 
+
+letter-spacing -- naudojamas nurodant tarpą tarp simbolių tekste.<br> 
+
+line-height -- naudojamas nurodant tarpą tarp eilučių.<br> 
+
+word-spacing -- naudojamas tarpui tarp žodžių tekste nurodyti.<br> 
+
+white-space -- nurodo, kaip elgiamasi su tarpu elemento viduje.<br> 
+
+text-shadow -- prideda šešėlį prie teksto. <br> 
+
+font-style -- naudojamas kursyviniam tekstui nurodyti;<br> 
+
+font-weight -- nurodo šrifto svorį;<br> 
+
+font-variant -- nurodo, ar tekstas turi būti rodomas mažomis raidėmis;<br> 
+
+font-size -- nurodo teksto dydį.<br> </p>
+</div>
+
+<!-- CSS Background savybes -->
+<div class="slepiamas">
+    <p class="backgroundSavybes">
+        background-color -- bet kuriam HTML elementui nurodo jo fono spalvą; <br> 
+
+background-image -- nurodo vaizdą, kurį reikia naudoti kaip elemento foną; <br>
+
+background-repeat -- pagal numatytuosius nustatymus fono paveikslėlio ypatybė pakartoja vaizdą tiek horizontaliai, tiek vertikaliai; <br>
+
+background-attachment -- nurodo, ar fono paveikslėlis turėtų slinkti (scroll), ar būti fiksuotas (fixed); <br>
+
+background-position -- ypatybė naudojama nurodyti fono paveikslėlio padėtį; <br>
+
+background-size -- nurodo paveikslėlių dydį tėvinaime elemente. <br>
+    </p>
+</div>
+<!-- Uzduotis  CAO-->
+<div class="allUzduotis">
+<h1>CodeAcademy, <span>uzduotis</span></h1>
+<p class="nuoroda">
+    <a  href="">Nuoroda 1</a>
+    <a  href="">Nuoroda 2</a>
+    <a  href="">Nuoroda 3</a>
+</p>
+<h2>Antro lygio antraste</h2>
+<p>Tekstas uzpildyti puslapiui, kad atrodytu ne toks tuscias <br>Nezinau kodel rasau ranka ir nenaudoju lorem impsum <br>Gerai, gana.... panauduosiu <span class="zaliasTekstas">Lorem ipsum generator</span></p>
+<h2>Daugiau turinio</h2>
+<p class="loremText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, non a? Sequi, incidunt eveniet! Quo, rem dignissimos impedit quasi numquam blanditiis temporibus! Sunt numquam iure excepturi consequatur nemo corrupti repudiandae culpa et, porro vitae, eius aliquam quam eos officia. Ullam soluta eum pariatur, similique deserunt ducimus fugiat modi perferendis expedita? Minus, ea magni, consequatur voluptate harum qui perferendis voluptates vitae impedit eius commodi ipsa, odio veniam nemo suscipit cupiditate magnam. Sequi porro accusantium minus repudiandae ipsa sapiente animi nesciunt hic voluptas! Deserunt et molestias modi atque, temporibus at dolorem sunt eum consequatur blanditiis explicabo earum iste laborum ad accusamus quos!</p>
+<h2> <span>Pagalba</span></h2>
+<p>Jei reikia pagalbos, kreptis <span class="zaliasTekstas">Nuoroda.</span> </p>
+<form >
+<legend>Pratimo metu reikes:</legend>
+<div class="uzduotis">
+    <input type="checkbox" name="uzduotisInput">
+    <label for="">Prisideti Roboto srifta is <a href="https://fonts.google.com/" target="_blank">https://fonts.google.com/</a></label>
+</div>
+<div class="uzduotis">
+    <input type="checkbox" name="uzduotisInput">
+    <label for="">Nustatyti 12px srifto dydi</label>
+</div>
+<div class="uzduotis">
+    <input type="checkbox" name="uzduotisInput">
+    <label for="">Atkurti turini naudojant teisingus HTML elementus (orientokites pagal turini, jis sufleruoja, koki HTML naudoti)  </label>
+</div>
+<div class="uzduotis">
+    <input type="checkbox" name="uzduotisInput">
+    <label for="">Panaudoti keleta srifto/teksto savybiu</label>
+</div>
+<div class="uzduotis">
+    <input type="checkbox" name="uzduotisInput">
+    <label for="">Sukurti CSS klases "selektorius" pasikartojancioms saavybems (t.y. pernaudoti ta pati CSS koda keliems elementams stilizuoti) </label>
+</div>
+</form>
+</div>
+<!-- Antra uzduotis, veliavos -->
+<div class="visosVeliavos">
+<div class="allFlags">
+<div class="flagFull"><h3>Estonia</h3>
+<div class="Estonia flagFullSize">
+<div class="Estonia1 standartflagSize"></div>
+<div class="Estonia2 standartflagSize"></div>
+<div class="Estonia3 standartflagSize"></div>
+</div>
+</div>
+
+<div class="flagFull"><h3>Latvia</h3>
+    <div class="Latvia flagFullSize">
+    <div class="Latvia1 latviaRed"></div>
+    <div class="Latvia2 latviaWhite"></div>
+    <div class="Latvia1 latviaRed"></div>
+    </div>
+    </div>
+    <div class="flagFull"><h3>Poland</h3>
+        <div class="Poland flagFullSize">
+        <div class="Poland1"></div>
+        <div class="Poland2"></div>
+        </div>
+        </div>
+
+        <div class="flagFull"><h3>Ireland</h3>
+            <div class="IrelandFlag">
+            <div class="Ireland flagFullSize">
+            <div class="Ireland1"></div>
+            <div class="Ireland2"></div>
+            <div class="Ireland3"></div>
+            </div>
+        </div>
+            </div>
+
+            <div class="flagFull "><h3>Norway</h3>
+                <div class="NorwayRedBG flagFullSize">
+                <div class="NorwayVertical"></div>
+                </div>
+                <div class="NorwayHorizontal norwayPosition"></div>
+                </div>
+    </div>
+    
+        </div>
+    </div>
+</div>
+</body>
+</html>

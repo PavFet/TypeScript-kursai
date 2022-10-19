@@ -1,0 +1,92 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #dcdcdc;
+}
+
+header{
+  text-align: center;
+  background-color: #f0f0f0;
+  margin:  20px 100px;
+  padding: 20px;
+  box-shadow: 7px 7px 7px grey;
+  border-radius: 10px;
+}
+
+footer{
+  text-align: center;
+  background-color: #f0f0f0;
+  margin:  20px 100px;
+  padding: 20px;
+  box-shadow: 7px 7px 7px grey;
+  border-radius: 10px;
+}
+
+main{
+  text-align: center;
+  background-color: #f0f0f0;
+  margin:  20px 100px;
+  padding: 20px;
+  box-shadow: 7px 7px 7px grey;
+  border-radius: 10px;
+}
+
+.logo{
+  max-width: 200px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.menu a:nth-child(2){
+  padding: 0 10px;
+}
+
+.main p{
+  text-align: justify;
+  font-weight: 700;
+
+}
+
+.mainImg{
+ width: 100%;
+
+}
+
+.maistoImg{
+  width: 100px;
+  height: 100px;
+}
+
+.produktai p{
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.produktai p span{
+  font-weight: 100;
+}
+
+.produktai h4{
+  font-size: 20px;
+}
+
+.produktai img{
+  margin-top: 10px;
+}
+
+footer img{
+  width: 100%;
+}
+
+footer ul{
+  text-align: left;
+  font-size: larger;
+}

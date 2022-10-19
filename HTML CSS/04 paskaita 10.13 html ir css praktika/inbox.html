@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head class="relative">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="../01 paskaita - 10.10 Susipazinimas/img/IMG_20220725_141312.jpg">
+    <title>04 Paskaita</title>
+</head>
+<body >
+    <header>
+        <nav>
+            <a href="#semTag">Pozicijos</a>
+            <a href="#relTag">Relative</a>
+            <a href="./pages/asmenine svetaine.html" target="_blank">Asmenine svetaine</a>
+        </nav>
+      <nav>
+      </nav>
+    </header>
+<!-- Main puslapio isdeliojimas -->
+      <!-- <main>
+            <article>
+            </article>
+            <section>
+            </section>
+        </main> -->
+        <!-- <main>
+            <section> 
+                <article></article>
+                    <div></div>
+            </section>
+        </main>
+
+        <main>
+            <article>
+                <section><sectio>
+                    </sectio></section>
+            </article>
+        </main> -->
+<!-- Semantiniai tagai -->
+<section class="slepti">
+<h1>Semantiniai tagai </h1>
+<ul>
+    <li>header - virsutine puslapio dalis</li>
+    <li>nav - navigation (menu)</li>
+    <li>main - pagrindine puslapio dalis (content)</li>
+    <li>article - content dalis (didesne)</li>
+    <li>section - article - content dalis (didesne)</li>
+    <li>aside - sonine sekcija (daznai naudojama reklama arba extra menu)</li>
+    <li>footer - apatine puslapio dalis</li>
+</ul> 
+</section>
+<!-- Postions - koreguoti elementu pozicijas -->
+<main>
+<section class="" id="semTag">
+    <h1>Pozicijos</h1>
+    <!-- Static -->
+    <div>
+        <h6>Static - default nustatymas, t.y. nesuteikia jokiu stiliu ir neigalina kitu stiliu naujodimo</h6>
+        <div class="kvadratas static">static 1</div>
+        <div class="kvadratas static">static 2</div>
+        <div class="kvadratas static">static 3</div>
+        <div class="kvadratas static">static 4</div>
+    </div>
+    <!-- Relative -->
+    <div id="relTag">
+        <h6>Relative - pozicija nesuteikia jokiu stiliu, bet igalina top/left/right/bottom ir z-index stiliu naudojima. <br> Top/left/right/bottom atitraukia elemta per nurodyta atstuma, nuo nurodytos krastines nuo elemento pradines pozicijos. Nurodo absolute elemento ribas </h6>
+        <div class="kvadratas static">static 1</div>
+        <div class="kvadratas top_20 left_10 z_index_-1">Relative 2</div>
+        <div class="kvadratas static left_10">static 3</div>
+        <div class="kvadratas static">static 4</div>
+    </div>
+     <!-- Absolute -->
+    <div>
+       
+        <h6>Absolute - pozicija iseina is puslapio tekmes ir  igalina top/left/right/bottom ir z-index stiliu naudojima.  <br> Top/left/right/bottom atitraukia elemta per nurodyta atstuma, nuo artimiausio protevio, kuris turi relative pozicija. Uzima tiek vietos kiek reikalauja jo content, jeigu nera nustatytas dydis. </h6>
+        <div class="kvadratas static">static 1</div>
+        <div class="kvadratas static">static 2</div>
+        <div class="kvadratas static absolute top_20 left_50">Absolute 3</div>
+        <div class="kvadratas static">static 4</div>
+</div>
+    <!-- Fixed -->
+    <div>
+
+        <h6>Fixed - fiksuoja pozicija. Iseina is puslapio tekmes ir  igalina top/left/right/bottom ir z-index stiliu naudojima. Top/left/right/bottom atitraukia elemta per nurodyta atstuma, nuo viewport (matymo laukas). Uzima tiek vietos kiek reikalauja jo content, jeigu nera nustatytas dydis. </h6>
+        <div class="kvadratas static">static 1</div>
+        <div class="kvadratas fixed bottom_100 right_50">fixed 2</div>
+        <div class="kvadratas static">static 3</div>
+        <div class="kvadratas static">static 4</div>
+    </div>
+    <!-- Sticky -->
+    <div class="aukstasElementas">
+    <h6>Sticky pozicija nesuteikia jokiu stiliu, bet igalina top/left/right/bottom ir z-index stiliu naudojima. Butina nurodyti bet viena krypt (pvz top). Top/left/right/bottom  </h6>
+
+        <div class="kvadratas static sticky top_20">Sticky 1</div>
+        <div class="kvadratas static">static 2</div>
+        <div class="kvadratas static">static 3</div>
+        <div class="kvadratas static">static 4</div>
+    </div>
+</div>
+</section>
+</main>
+
+    </body>
+
+</html>

@@ -1,0 +1,69 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+body{
+  height: 500vh;
+}
+.dezutesModelioPavyzdys{
+  text-align: center;
+  background-color: aquamarine;
+  /* content */
+  display: block;
+  font-size: 24px;
+
+  line-height: 50px;
+  width: 150px;
+  height: 50px;
+  /* Padding */
+  padding: 10px;
+  /* Border */
+  border: 5px dotted orange;
+  border-top: 5px solid blue;
+  border-style: dashed double;
+  /* Margin */
+  margin: 10px auto;
+  /* Position */
+position: relative;
+left: 100px;
+}
+
+/* kai pele uzejo ant elemento */
+.dezutesModelioPavyzdys:hover{
+  background-color: red;
+  color: white;
+}
+
+
+.displayNone{
+  display: none;
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+  width: 130px;
+  height: 50px;
+  position: relative;
+left: 100px;
+margin: 10px auto;
+}
+
+
+
+
+.displayNone a:hover{
+  color: red;
+}
+
+.navigacija:hover .displayNone{
+  display: block;
+}
+
+.displayNone:hover{
+  background-color:gold;
+  
+}
+
+.displayNone a{
+  border: 5px solid blue;
+  background-color:gold;
+  text-decoration: none
+}
+

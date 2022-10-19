@@ -1,0 +1,224 @@
+/* klases pvd rasyti  klases_Pav arba klasesPav, nereikia rasyti klases-Pav */
+.klasesPavadinimas{
+    margin: 30px;
+    color: red;
+    background-color: black;
+    width: 130px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.slepiamas{
+    display:none;
+}
+#selektoriuSarasas{
+    list-style-type: square;
+    
+}
+
+.paryskintas{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.kvadratas{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    border: 3px solid black;
+    color: rgb(246, 246, 246);
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.inline{
+    display: inline;
+}
+
+.block{
+    display: block;
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+.didelisDiv{
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.fonoImage{
+    background-image: url('../Untitled.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fonoSpalva{
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,121,9,1) 35%, rgba(0,212,255,1) 100%); ;
+}
+
+.tekstas{
+    font-variant: slashed-zero;
+}
+
+.backgroundSavybes{
+    background-image: url('/klaviaturos\ shortkai.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+     background-position: center;
+     display: block;
+
+}
+
+/* Uzduotis */
+
+h1 span {
+    color:rgb(98, 98, 253);
+}
+
+.nuoroda a {
+    color: blue;
+}
+
+.zaliasTekstas{
+    color: green;
+    text-decoration: underline;
+}
+
+.loremText{
+    font-style: italic;
+    font-weight: 600;
+    font-size: small;
+}
+
+h2 span {
+    font-style: italic;
+}
+
+legend{
+    font-weight: bold;
+}
+
+.allUzduotis{
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+.uzduotis{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+/* Flags */
+
+.standartflagSize{
+    width: 180px;
+    height: 40px;
+}
+
+.flagFullSize{
+    width: 180px;
+    height: 120px;
+    border: 2px solid;
+}
+
+.Estonia1{
+    background-color: blue;
+}
+.Estonia2{
+    background-color: black;
+}
+.Estonia3{
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+.flagFull{
+    display: inline-block;
+    
+}
+
+.Latvia1 {
+    height: 50px;
+    background-color: rgb(150, 2, 2);
+}
+
+.Latvia2{
+    height: 20px;
+    background-color: white;
+}
+
+.Poland1{
+    height: 60px;
+    background-color: rgb(197, 195, 195);
+}
+
+.Poland2{
+    height: 60px;
+    background-color: rgb(207, 29, 29);
+}
+.irelandDisplay{
+display: block;
+}
+.Ireland1{
+    width: 60px;
+    background-color: green;
+    height: 120px;
+}
+
+.Ireland2{
+    width: 60px;
+    background-color:rgb(227, 221, 221);
+    height: 120px;
+}
+
+.Ireland3{
+    width: 60px;
+    background:rgb(253, 135, 0);
+    height: 120px;
+}
+
+.Ireland{
+    display: flex;
+    position: absolute;
+}
+
+.visosVeliavos{
+    display: inline-block;
+    position: relative;
+}
+
+
+.NorwayRedBG{
+    background-color: red;
+    margin-left: 125px;
+}
+
+.NorwayVertical{
+    height: 120px;
+    width: 10px;
+    background-color: blue;
+    border: 3px solid white;
+    margin-left: 30px;
+    
+}
+
+.NorwayHorizontal{
+    height: 10px;
+    width: 180px;
+    background-color: blue;
+    border: 3px solid white;
+    position: absolute;
+    z-index: 1;
+    top: 113px;
+right: 1px;
+}
+
