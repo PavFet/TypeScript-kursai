@@ -1,0 +1,64 @@
+/* > neziures gyliau,  */ 
+.nerikiuotas > li{  
+  color: red;
+}
+
+h1, h2, h3, h4{
+  color: red;
+}
+
+/* iskart uz jo einantis sekantis */
+section + hr{
+  background-color: red;
+}
+
+section ~ ol{
+  color: blue;
+}
+
+/* linku busenos */
+
+h1 > a:link{
+  color: black;
+}
+
+h1 > a:visited{
+  color: brown;
+}
+
+
+h1 > a:hover{
+  cursor: crosshair;
+  color: green;
+}
+
+
+h1 > a:active{
+  color: gold;
+}
+/* linku busenos end */
+
+li::marker{
+  color: black;
+}
+
+li::before{
+  content: ':)';
+  color: purple;
+  font-size: 30px;
+}
+
+li::after{
+  content: '@';
+  color: purple;
+  font-size: 30px;
+}
+
+h1::selection{
+  color: orange;
+  background-color: black;
+}
+
+/* th, td{
+  border: 2px solid black;
+}

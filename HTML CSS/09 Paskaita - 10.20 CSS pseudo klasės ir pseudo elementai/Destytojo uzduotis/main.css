@@ -1,0 +1,30 @@
+body{
+  background-color: rgb(188, 146, 188);
+}
+
+th{
+  background-color: white;
+}
+
+td:hover{
+  background-color: rgb(102, 255, 0);
+  color: blue;
+  font-size: 25px;
+  transition: 1s ease;
+  cursor: none;
+}
+
+tr:hover{
+  background-color: rgb(199, 199, 9);
+}
+
+.lentele{
+  text-align: -webkit-center;
+}
+
+table{
+    border-spacing: 0px;
+    text-align: center;
+    position: relative;
+}
+

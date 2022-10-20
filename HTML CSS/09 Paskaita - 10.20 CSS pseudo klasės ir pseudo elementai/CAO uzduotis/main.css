@@ -1,0 +1,133 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+
+header {
+  background-color: black;
+}
+
+.header_full {
+  text-align: center;
+  padding: 0 200px;
+}
+
+header h1 {
+  color: white;
+  text-align: left;
+}
+
+.header_bottom {
+  background-color: rgb(226, 186, 7);
+  text-align: right;
+  padding: 20px;
+}
+
+.header_bottom a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.about {
+  text-align: center;
+  padding: 0 200px;
+}
+
+section>h2 {
+  text-align: left;
+  font-size: 40px;
+}
+
+section>p {
+  text-align: left;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.about>a {
+  text-align: center;
+  padding: 8px 45px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.table_full{
+  background-color: #00154C;
+}
+
+.table{
+  text-align: center;
+  padding: 0 200px;
+  padding-bottom: 40px;
+}
+
+.table>h3{
+  text-align: left;
+  color: white;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+table{
+  border-spacing: 0;
+  width: 100%;
+  border-color: red;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+
+td:nth-child(2){
+  text-align: right;
+  font-weight: bold;
+}
+
+
+tfoot{
+  text-align: right;
+}
+
+
+
+.contacts_info{
+  text-align: left;
+  padding: 0 200px;
+}
+
+
+.contacts_info h3{
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.contacts_info li{
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.contacts{
+  text-align: center;
+}
+
+.contacts a{
+  color:blue;
+  font-size: 25px;
+}
+
+footer{
+  background-color:rgb(226, 186, 7);
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer p{
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
