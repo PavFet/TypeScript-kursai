@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 paskaita / Lenteles ir formos</title>
+</head>
+<body>
+  <!-- nth / child / type
+  CAO 8
+  Forma
+  CAO 9 -->
+  <main>
+    <section id="selectors">
+      <h1>Selectors</h1>
+      <ul>
+        <li>:first-child</li>
+        <li>:last-child</li>
+        <li>:only-child</li>
+          <li>:first-of-type</li>
+          <li>:last-of-type</li>
+          <li>:only-of-type</li>
+          <li>:nth-child(n)</li>
+          <li>:nth-last-child(n)</li>
+          <li>:nth-of-type(n)</li>
+          <li>:nth-last-of-type(n)</li>
+      </ul>
+      <p>
+        Pirmas/Paskutinis/Vienintelis vaikinis elementas, lygmenyje (seimoje) igauna nurodytus stilius. Galima tikslinti koks tai elementas pries dvitaski nurodant elemento/id/klases  ar kita selektrosiu
+      </p>
+      <!-- of-type -->
+      <p>
+        Pirmas/Paskutinis/Vienintelis nurodyto tipo elementas, lygmenyje (seimoje) igauna nurodytus stilius.Ignoruoja kito tipo elementus (ne taip kaip child selektorius).
+      </p>
+    </section>
+    <section>
+      <h1>NTH pvz</h1>
+      <div class="nthTryOut">
+        <p>1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, blanditiis?</p>
+        <p>2 Nesciunt aliquam laudantium similique esse in mollitia quo, optio laborum.</p>
+        <p>3 Voluptatem minima repudiandae tenetur saepe quisquam explicabo quibusdam optio incidunt.</p>
+        <p>4 Cupiditate, saepe nobis reiciendis at quas quaerat voluptates amet et!</p>
+        <p>5 Itaque labore modi accusamus repudiandae deleniti dicta dolore inventore natus!</p>
+        <p>6 Quae ipsa possimus placeat eos sunt nulla, natus explicabo officiis.</p>
+        <p>7 Incidunt natus cupiditate modi dolorem, vitae nostrum repudiandae inventore adipisci.</p>
+        <p>8 Modi, dolore qui distinctio asperiores neque delectus sed consequuntur fugiat.</p>
+        <p>9 Quisquam facere ea harum ullam alias, nemo perferendis quas quo.</p>
+        <p>10 Voluptatum dolor optio laboriosam neque non autem tenetur accusamus! Blanditiis.</p>
+      </div>
+    </section>
+    <section>
+      <p>NTH zymejimas nurodo kelinta / kas kelinta / kas kelinta nuo kelinto elementa (type arba child) selectini. </p>
+    </section>
+    <section id="form">
+      <form action="">
+        <fieldset>
+          </div>
+          <legend>Formos pavadinimas</legend>
+          <h3>Pasirinkite valgius</h3>
+            <div>
+              <label for="">Sriuba</label>
+              <input type="checkbox" id="sriuba" name="valgis" value="sriuba">
+            </div>
+          <div>
+            <label for="">Zuvis</label>
+            <input type="checkbox" id="zuvis" name="valgis" value="zuvis">
+          </div>
+          <div>
+            <label for="">Vistiena</label>
+            <input type="checkbox" id="vistiena" name="valgis" value="vistiena">
+          </div>
+          <div>
+          <select name="" id="" required>
+            <option value=""></option>
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+        </select>
+        </div>
+        <div>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <input type="email" name="" id="" required>
+        </div>
+        <div>
+          <input type="submit">
+        </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>

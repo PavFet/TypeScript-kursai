@@ -5,14 +5,30 @@ header {
   background-color: black;
 }
 
-.header_full {
+
+footer {
+  background-color: rgb(226, 186, 7);
   text-align: center;
-  padding: 0 200px;
+  padding: 20px 0;
+  margin-top: 20px;
 }
+
+
+footer p {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+
 
 header h1 {
   color: white;
   text-align: left;
+}
+
+.header_full {
+  text-align: center;
+  padding: 0 200px;
 }
 
 .header_bottom {
@@ -54,24 +70,24 @@ section>p {
   cursor: pointer;
 }
 
-.table_full{
+.table_full {
   background-color: #00154C;
 }
 
-.table{
+.table {
   text-align: center;
   padding: 0 200px;
   padding-bottom: 40px;
 }
 
-.table>h3{
+.table>h3 {
   text-align: left;
   color: white;
   font-size: 40px;
   padding-top: 50px;
 }
 
-table{
+table {
   border-spacing: 0;
   width: 100%;
   border-color: red;
@@ -82,52 +98,39 @@ table{
 
 
 
-td:nth-child(2){
+td:nth-child(2) {
   text-align: right;
   font-weight: bold;
 }
 
 
-tfoot{
+tfoot {
   text-align: right;
 }
 
 
 
-.contacts_info{
+.contacts_info {
   text-align: left;
   padding: 0 200px;
 }
 
 
-.contacts_info h3{
+.contacts_info h3 {
   font-size: 40px;
   padding-top: 50px;
 }
 
-.contacts_info li{
+.contacts_info li {
   font-size: 25px;
   margin-left: 20px;
 }
 
-.contacts{
+.contacts {
   text-align: center;
 }
 
-.contacts a{
-  color:blue;
+.contacts a {
+  color: blue;
   font-size: 25px;
-}
-
-footer{
-  background-color:rgb(226, 186, 7);
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 20px;
-}
-
-footer p{
-  color: white;
-  font-size: 30px;
-  margin: 0;
 }

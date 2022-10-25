@@ -1,0 +1,44 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+body{
+  background-color: black;
+}
+
+header{
+  background-color: #011E28;
+  padding: 30px 10px;
+}
+
+header a{
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+}
+
+header a:hover{
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.star{
+  background-color: #00232f;
+  color: yellow;
+  display: flex;
+}
+
+.starImg{
+  background-image: url(./img/star-icon.svg);
+  background-size:cover;
+  width: 25px;
+  height: 25px;
+}
+
+.englandFlag{
+  background-image: url(./img/flag.svg);
+  background-size:cover;
+  width: 30px;
+  height: 25px;
+  margin-right: 23px;
+}
+
+
+

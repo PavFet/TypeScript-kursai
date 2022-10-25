@@ -1,0 +1,106 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+body{
+  background-color: #1F2739;
+}
+
+header{
+  text-align: center;
+
+}
+
+.img_logo{
+  border-radius: 15px;
+}
+
+h1{
+  color: #4EC3FA;
+  font-size: 50px;
+}
+
+h1 span{
+  color: yellow;
+}
+
+h2{
+  color: #F76579;
+  font-size: 30px;
+}
+
+.lentele{
+ text-align: -webkit-center;
+ font-size: 70px;
+ color:#A49FAC;
+}
+
+
+
+
+tr:nth-child(2n+1){
+  background-color: #323C50;
+}
+
+th{
+  background-color: #1F2739;
+}
+
+td {
+  padding: 30px;
+}
+
+td:nth-child(2){
+  padding-right: 120px;
+}
+
+td:nth-child(6){
+  padding-right: 60px;
+}
+
+td:nth-child(7){
+  padding-right: 120px;
+}
+
+td:nth-child(8){
+  padding-right: 120px;
+}
+
+td:nth-child(9){
+  padding-right: 120px;
+}
+
+tr:nth-child(2n+2){
+  background-color: #2D3447;
+}
+
+td:first-child{
+  color: #F76579;
+}
+
+.pralaimejo{
+  padding: 15px 30px;
+  background-color: rgb(23, 185, 23);
+  border-radius: 10px;
+  color: white;
+
+}
+
+
+.laimejo{
+  padding: 15px 30px;
+  background-color: rgb(218, 173, 25);
+  border-radius: 10px;
+  color: white;
+
+}
+
+.pr{
+  padding: 15px 19px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+
+}
+
+table{
+  border-spacing: 13px;
+}

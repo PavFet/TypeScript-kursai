@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11 paskaita</title>
+</head>
+<body>
+  <main>
+    <section id="pseudoFormos">
+      <h1>Formu pseudo selektoriai</h1>
+      <ul>
+        <li>input:checked - parenka pazymeta radio/checkbox elementa</li>
+        <li>input:default - parenka is pradziu (by default) pazymeta elementa</li>
+        <li>input:disabled - parenka neigalinta (neleidziama pildyti) elementa</li>
+        <li>input:enabled - parenka igalinta (leidziama pildyti) elementa</li>
+        <li>input:focused - parenka siuo metu fokusuota (pildomas) elementa</li>
+        <li>input:in-range - elemntas, kurio ivestis yra nurodytose ribose</li>
+        <li>input:out-of-range - elemntas, kurio ivestis yra uz nurodytu ribu</li>
+        <li>input:indeterminate - elementas, kurio ivestis yra nenustatyta (nereikes)</li>
+        <li>input:valid - elementas, kurio ivestis teisinga</li>
+        <li>input:invalid - elementas, kurio ivestis neteisinga </li>
+        <li>input:optional - elementas, be required atributo</li>
+        <li>input:required -  elementas, su required atributo</li>
+        <li>input:read-only - elementas, su readonly atributo</li>
+        <li>input:read-write - elementas, be readonly atributo</li>
+        <li>input::placeholder - placeholder atributo informacijos selektorius</li>
+      </ul>
+    </section>
+    <section id="ikonos">
+      <h1>Ikonos</h1>
+<p>
+  Tam kad naudoti ikonas, reikia suimportuoti viena is specifiniu biblioteku, pvz Font-Awesome,Bootstrap, Google
+</p>
+<p>
+  span VS i <br>
+  i tagas kelia asociacija su zodziu icor ir uzima maziau vietos <br>
+  span tagas yra taisyklingesnis variantas, nes yra tuscias tagas  skirtas stilizuoti.
+</p>
+<p>ikonos stilizuojami kaip tekstiniai elementai</p>
+<div>
+  <h3>Font-Awesome</h3>
+  <i class="fa fa-camera-retro ikona"></i>
+  <span class="fa fa-camera-retro ikona"></span>
+</div>
+
+<div>
+  <h3>Bootstrap</h3>
+  <span class="glyphicon glyphicon-camera"></span>
+</div>
+
+<div>
+  <h3>Google</h3>
+  <i class="material-icons">camera</i>
+</div>
+    </section>
+    <section id="flex">
+      <h1>Flex</h1>
+
+      <div class="flexKonteineris">
+        <div class="flexElementas centruotisFlexu">1</div>
+        <div class="flexElementas centruotisFlexu">2</div>
+        <div class="flexElementas centruotisFlexu">3</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

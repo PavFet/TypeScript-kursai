@@ -11,7 +11,7 @@ td:hover{
   color: blue;
   font-size: 25px;
   transition: 1s ease;
-  cursor: none;
+  cursor: pointer;
 }
 
 tr:hover{
@@ -26,5 +26,35 @@ table{
     border-spacing: 0px;
     text-align: center;
     position: relative;
+    overflow: hidden;
+  
 }
 
+
+td, th, .row, .col {
+  position: relative;
+}
+
+td:hover::before,
+.row:hover::before { 
+    background-color: #ffa;
+    content: '';  
+    height: 100%;
+    left: -5000px;
+    position: absolute;  
+    top: 0;
+    width: 10000px;   
+    z-index: -1;        
+}
+
+td:hover::after,
+.col:hover::after { 
+    background-color: #ffa;
+    content: '';  
+    height: 10000px;    
+    left: 0;
+    position: absolute;  
+    top: -400%;
+    width: 100%;
+    z-index: -1;        
+}

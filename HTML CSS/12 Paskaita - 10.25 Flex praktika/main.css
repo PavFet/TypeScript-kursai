@@ -1,0 +1,54 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+:root{
+  --melyna-tamsi: rgb(18, 18, 129);
+  --melyna-svesi: rgb(36, 36, 247);
+  --menu-aukstis: 80px;
+}
+
+body{
+  height: 500vh;
+}
+
+h1{
+  color: var(--melyna-svesi);
+}
+
+header{
+  height: var(--menu-aukstis);
+  position: sticky;
+  top: 0;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+.logo img{
+  height: var((--menu-aukstis) - 40px);
+  margin-left: 10px;
+}
+
+
+.mainMenu{
+  width: 50%;
+}
+
+.mainMenu > ul{
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+

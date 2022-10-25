@@ -1,0 +1,86 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+.title{
+  background-color: #DDAA00;
+  text-align: center;
+  margin: 0;
+  padding: 15px 0;
+}
+
+h1{
+  font-size: 30px;
+  color: white;
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: #CCCCCC;
+  padding: 5px 0;
+
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  border: 1px solid black;
+  color: #DDAA00;
+  background-color: white;
+  width: 100px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+main{
+  background-color:#808080;
+  padding: 5px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+.mainDiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.columnDiv p{
+  width: 190px;
+  font-size: 9px;
+}
+
+.columnDiv{
+  background-color: white;
+  padding: 5px;
+}
+
+.textAndBtn{
+  display: flex;
+  flex-direction: column;
+    justify-content: space-between;
+    height: 91px;
+}
+
+.btn button{
+  display: block;
+  width: 100%;
+  font-size: 9px;
+  padding: 4px 0;
+}
+
+footer{
+  background-color: #DDAA00;
+  text-align: center;
+  padding: 5px;
+}
+
+footer h4{
+  color: white;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,45 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+
+.full{
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  gap: 10px;
+  background-color:grey;
+  padding: 10px;
+}
+
+.left, .right{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.fonas{
+  background-color: rgb(193, 55, 55);
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  width: 100%;
+  height: 100%;
+}
+
+.bottom{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.bottomDiv{
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}

@@ -1,0 +1,230 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+/* body{
+  text-align: -webkit-center;
+} */
+
+main {
+  display: flex;
+  border: 2px solid rgba(0, 0, 0, 0.363);
+  width: 918px;
+  margin-top: 30px;
+}
+
+.left_top>img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 6px;
+  transform: rotate(270deg);
+  padding: 19px;
+  background-color: #F9C7C1;
+  border-radius: 40px;
+  margin-right: 20px;
+}
+
+
+.left {
+  background-color: #817182;
+}
+
+.left_top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  width: 400px;
+}
+
+.left_bottom{
+  display: flex;
+  justify-content: center;
+}
+.right{
+  width: 520px;
+}
+.left_bottom img{
+  width: 200px;
+  padding-top: 200px;
+  opacity: 0.6;
+}
+
+.right_top{
+  background-color: #F9C7C1;
+}
+
+.right_top>h2{
+  margin: 0;
+}
+
+.gender, .spayed{
+  background-color: white;
+  display: inline;
+  padding: 6px 9px;
+  border-radius: 5px;
+}
+
+.gender input,
+.spayed input{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.gender input:hover,
+.spayed input:hover{
+  background-color: #DF8F7D;
+  transition: 0.5s;
+}
+
+.gender input:focus,
+.spayed input:focus{
+  background-color: #DF8F7D;
+}
+
+.form_left, .right_top>h2{
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.form_left input {
+  border: none;
+  margin: 10px 0;
+  width: 150px;
+}
+
+.gender input, .spayed input{
+  width: 67px;
+}
+
+.leftAndRight{
+  display: flex;
+}
+
+.form_right{
+  padding-left: 147px;
+    padding-top: 20px;
+}
+
+.date input{
+  border: none;
+}
+
+.camera img{
+  width: 43px;
+  height: 40px;
+  background-color: #eae3e3;
+  border-radius: 40px;
+}
+
+
+.cameraImg{
+  height: 30px;
+  width: 30px;
+}
+
+.camera{
+  display: flex;
+}
+
+span {
+  padding-top: 11px;
+  padding-left: 49px;
+  position: relative;
+  bottom: 16px;
+}
+
+
+.camera, .date{
+  display: block;
+}
+
+.form_right{
+  margin: 10px 0;
+}
+
+.form_right input{
+  margin: 10px 0;
+}
+
+
+.weight_form{
+  background-color: white;
+  display: inline;
+}
+
+
+.weight_inputs input:hover{
+  background-color: #DF8F7D;
+  transition: 0.5s;
+}
+
+.weight input{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.weight, .weight_form>label{
+  background-color:#F9C7C1;
+}
+
+.weight_form input{
+  margin: 10px -5px;
+
+}
+
+.weight{
+  padding-left: 30px;
+  padding-bottom: 40px;
+}
+
+.weight_inputs input{
+  width: 120px;
+}
+
+
+.weight_inputs{
+  display: inline;
+  padding: 8px 6px;
+  background: white;
+  border-radius: 5px;
+}
+
+
+.weight_inputs input:focus{
+  background-color: #DF8F7D;
+}
+
+input{
+  border-radius: 5px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 30px;
+}
+
+.back input, .next input{
+  width: 80px;
+    text-align: center;
+    height: 30px;
+    border-radius: 15px;
+    border-color: #00000036;
+    cursor: pointer;
+}
+
+.back input:hover, .next input:hover{
+  background-color: #817182;
+  color: white;
+  transition: 0.5s;
+}
+
+
+.spayed input[type=radio]{
+  display: none;
+}
+
+.spayed label:hover{
+  background-color: #DF8F7D;
+}

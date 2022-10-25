@@ -1,0 +1,48 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+body{
+  background: url(./img.jpg) no-repeat center;
+  background-position: cover;
+  text-align: -webkit-center;
+}
+
+.lenteleContact{
+  text-align: -webkit-center;
+  width: 400px;
+  height: 450px;
+  background-color: rgb(189, 192, 194);
+  position: relative;
+  top:100px;
+}
+
+input, textarea{
+  background-color: rgb(189, 192, 194);
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+
+form{
+  width: 350px;
+  text-align: left;
+}
+
+
+.button input{
+  width: 130px;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  cursor: pointer;
+}
+
+h2{
+  padding-top: 50px;
+}
+
+label{
+  margin-bottom: 10px;
+}
+
