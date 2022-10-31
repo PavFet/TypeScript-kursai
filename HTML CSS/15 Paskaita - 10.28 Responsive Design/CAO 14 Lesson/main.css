@@ -1,0 +1,81 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+body{
+  background-color: rgb(225, 223, 223);
+  margin: 0 auto;
+}
+
+header, main {
+  padding: 0 40px;
+}
+
+
+.logo i{
+  color: rgb(83, 81, 81);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.logo{
+  display: flex;
+}
+
+.menu a{
+  text-decoration: none;
+  padding-left:  15px;
+  color: black;
+  
+}
+
+.menu{
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 2px -2px gray;
+}
+
+.fullMain{
+  display: flex;
+  column-gap: 10px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  height: 150px;
+  flex-grow: 1;
+}
+
+.leftTop{
+  flex-grow: 1;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 15px;
+  box-shadow: 4px 4px 2px -2px gray;
+}
+
+.leftBottom{
+  flex-grow: 3;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 15px;
+  box-shadow: 4px 4px 2px -2px gray;
+}
+
+.right{
+  flex-grow: 4;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 15px;
+  box-shadow: 4px 4px 2px -2px gray;
+}
+
+footer{
+  text-align: center;
+  font-size: 10px;
+}
+

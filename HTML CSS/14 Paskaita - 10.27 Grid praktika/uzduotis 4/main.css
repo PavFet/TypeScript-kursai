@@ -1,0 +1,572 @@
+
+
+:root{
+  --zheltyj-color: #FFFF02;
+  --svetlo-korichnevyj: #FFCC99;
+  --goluboj-cvet: #33CCFF;
+  --zelenyj-cvet: #66FF66;
+  --morskoj-cvet: #99FFCC;
+  --svetlo-sinij: #33CCCC;
+  --bezhevyj-cvet: #FFCCCC;
+  --temno-rozovyj: #FF9999;
+  --krasnyj-cvet: #FF7F4F;
+  --rozovyj-cvet: #FF99FF;
+
+}
+
+.empty{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid white;
+}
+
+.zheltyj{
+  background-color: #FFFF02;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.svetloKorichnevyj{
+  background-color: #FFCC99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.goluboj{
+  background-color: #33CCFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+
+.zelenyj{
+  background-color: #66FF66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.morskoj{
+  background-color: #99FFCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.svetloSinij{
+  background-color: #33CCCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.bezevyj{
+  background-color: #FFCCCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.temnoRozovyj{
+  background-color: #FF9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.krasnyj{
+  background-color: #FF7F4F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.rozovyj{
+  background-color: #FF99FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60px;
+  width: 65px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+
+
+
+.gridTop{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.gridMiddle{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.gridBottom{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding-top: 8px;
+  gap: 8px;
+}
+
+
+
+.classAll span{
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.classAll h6{
+  font-size: 17px;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+.hydrogen{
+  grid-column: 1 /2;
+  grid-row: 1 /2;
+}
+
+
+.Lithium{
+  grid-column: 1 /2;
+  grid-row: 2 /3;
+}
+
+.Sodium{
+  grid-column: 1 /2;
+  grid-row: 3 /4;
+}
+
+.Beryllium{
+  grid-column: 2 /3;
+  grid-row: 2 /3;
+}
+
+.Magnesium{
+  grid-column: 2 /3;
+  grid-row: 3 /4;
+}
+
+.Boron{
+  grid-column: 13 / 14;
+  grid-row: 2 /3;
+}
+
+.Silicon{
+  grid-column: 14 / 15;
+  grid-row: 3 /4;
+}
+
+.Aluminium{
+  grid-column: 13 / 14;
+  grid-row: 3 /4;
+}
+
+
+.Carbon{
+  grid-column: 14 / 15;
+  grid-row: 2 /3;
+}
+
+.Nitrogen{
+  grid-column: 15 / 16;
+  grid-row: 2 /3;
+}
+
+.Phosphorus{
+  grid-column: 15 / 16;
+  grid-row: 3 /4;
+}
+
+.Oxygen{
+  grid-column: 16 / 17;
+  grid-row: 2 /3;
+}
+
+.Sufur{
+  grid-column: 16 / 17;
+  grid-row: 3 / 4;
+}
+
+.Fluorine{
+  grid-column: 17 / 18;
+  grid-row: 2 /3;
+}
+
+.Chlorine{
+  grid-column: 17 / 18;
+  grid-row: 3 /4;
+}
+
+
+.Helium{
+  grid-column: 18 / 19;
+  grid-row: 1 /2;
+}
+.Neon{
+  grid-column: 18 / 19;
+  grid-row: 2 /3;
+}
+.Argon{
+  grid-column: 18 / 19;
+  grid-row: 3 /4;
+}
+.Potassium{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.Rubidium{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.Cesium{
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+.Francium{
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+.Calcium{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.Strontium{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.Barium{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+.Radium{
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+.Scandium{
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+.Yttrium{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+.Lanthanum{
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+.Actinium{
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+.Titanium{
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+.Zirconium{
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+.Hafnium{
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+.Rutherfordium{
+  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+}
+.Vandium{
+  grid-column: 5 / 6;
+  grid-row: 1 / 2;
+}
+.Niobium{
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+.Tantalum{
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+}
+.Dubnium{
+  grid-column: 5 / 6;
+  grid-row: 4 / 5;
+}
+.Chromium{
+  grid-column: 6 / 7;
+  grid-row: 1 / 2;
+}
+.Molybdenum{
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+.Tungsten{
+  grid-column: 6 / 7;
+  grid-row: 3 / 4;
+}
+.Seaborgium{
+  grid-column: 6 / 7;
+  grid-row: 4 / 5;
+}
+.Manganese{
+  grid-column: 7 / 8;
+  grid-row: 1 / 2;
+}
+.Technetium{
+  grid-column: 7 / 8;
+  grid-row: 2 / 3;
+}
+.Rhenium{
+  grid-column: 7 / 8;
+  grid-row: 3 / 4;
+}
+.Bohrium{
+  grid-column: 7 / 8;
+  grid-row: 4 / 5;
+}
+.Iron{
+  grid-column: 8 / 9;
+  grid-row: 1 / 2;
+}
+.Ruthenium{
+  grid-column: 8 / 9;
+  grid-row: 2 / 3;
+}
+.Osmium{
+  grid-column: 8 / 9;
+  grid-row: 3 / 4;
+}
+.Hassium{
+  grid-column: 8 / 9;
+  grid-row: 4 / 5;
+}
+.Cobalt{
+  grid-column: 9 / 10;
+  grid-row: 1 / 2;
+}
+.Rhodium{
+  grid-column: 9 / 10;
+  grid-row: 2 / 3;
+}
+.Iridium{
+  grid-column: 9 / 10;
+  grid-row: 3 / 4;
+}
+.Meitnerium{
+  grid-column: 9 / 10;
+  grid-row: 4 / 5;
+}
+.Nickel{
+  grid-column: 10 / 11;
+  grid-row: 1 / 2;
+}
+.Palladium{
+  grid-column: 10 / 11;
+  grid-row: 2 / 3;
+}
+.Platinum{
+  grid-column: 10 / 11;
+  grid-row: 3 / 4;
+}
+.Darmstadtium{
+  grid-column: 10 / 11;
+  grid-row: 4 / 5;
+}
+.Copper{
+  grid-column: 11 / 12;
+  grid-row: 1 / 2;
+}
+.Silver{
+  grid-column: 11 / 12;
+  grid-row: 2 / 3;
+}
+.Gold{
+  grid-column: 11 / 12;
+  grid-row: 3 / 4;
+}
+.Roentgenium{
+  grid-column: 11 / 12;
+  grid-row: 4 / 5;
+}
+.Zinc{
+  grid-column: 12 / 13;
+  grid-row: 1 / 2;
+}
+.Cadminium{
+  grid-column: 12 / 13;
+  grid-row: 2 / 3;
+}
+.Mercury{
+  grid-column: 12 / 13;
+  grid-row: 3 / 4;
+}
+.Copernicium{
+  grid-column: 12 / 13;
+  grid-row: 4 / 5;
+}
+.Gallium{
+  grid-column: 13 / 14;
+  grid-row: 1 / 2;
+}
+.Indium{
+  grid-column: 13 / 14;
+  grid-row: 2 / 3;
+}
+.Thallium{
+  grid-column: 13 / 14;
+  grid-row: 3 / 4;
+}
+.Ununtrium{
+  grid-column: 13 / 14;
+  grid-row: 4 / 5;
+}
+.Germanium{
+  grid-column: 14 / 15;
+  grid-row: 1 / 2;
+}
+.Tin{
+  grid-column: 14 / 15;
+  grid-row: 2 / 3;
+}
+.Lead{
+  grid-column: 14 / 15;
+  grid-row: 3 / 4;
+}
+.Flerovium{
+  grid-column: 14 / 15;
+  grid-row: 4 / 5;
+}
+.Arsenic{
+  grid-column: 15 / 16;
+  grid-row: 1 / 2;
+}
+.Antimony{
+  grid-column: 15 / 16;
+  grid-row: 2 / 3;
+}
+.Bismuth{
+  grid-column: 15 / 16;
+  grid-row: 3 / 4;
+}
+.Unnunpentium{
+  grid-column: 15 / 16;
+  grid-row: 4 / 5;
+}
+.Selenium{
+  grid-column: 16 / 17;
+  grid-row: 1 / 2;
+}
+.Tellurium{
+  grid-column: 16 / 17;
+  grid-row: 2 / 3;
+}
+.Polonium{
+  grid-column: 16 / 17;
+  grid-row: 3 / 4;
+}
+.Livermorium{
+  grid-column: 16 / 17;
+  grid-row: 4 / 5;
+}
+.Bromine{
+  grid-column: 17 / 18;
+  grid-row: 1 / 2;
+}
+.Iodine{
+  grid-column: 17 / 18;
+  grid-row: 2 / 3;
+}
+.Astatine{
+  grid-column: 17 / 18;
+  grid-row: 3 / 4;
+}
+.Ununseptium{
+  grid-column: 17 / 18;
+  grid-row: 4 / 5;
+}
+.Krypton{
+  grid-column: 18 / 19;
+  grid-row: 1 / 2;
+}
+.Xenon{
+  grid-column: 18 / 19;
+  grid-row: 2 / 3;
+}
+.Radon{
+  grid-column: 18 / 19;
+  grid-row: 3 / 4;
+}
+.Unnunoctium{
+  grid-column: 18 / 19;
+  grid-row: 4 / 5;
+}

@@ -1,0 +1,17 @@
+@media (min-width: 600px){
+  h1{
+    color: red;
+  }
+}
+
+@media (min-width: 900px) {
+  body{
+    background-color: grey;
+  }
+}
+
+@media (min-width: 1200px){
+  h1{
+    color: orange;
+  }
+}

@@ -1,0 +1,87 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+body{
+  background-image: url(./img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.menu{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+margin: 10px;
+height: 140px;
+}
+
+.navigacija{
+  text-decoration: none;
+  border: 2px solid white;
+  color: rgb(91, 89, 89);
+  width: 100%;
+  background-color: #C3D1E3;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainImg{
+  margin: 0 10px;
+  background-image: url(./img/mainImg.jpg);
+  background-repeat: no-repeat;
+  height: 280px;
+  background-size: cover;
+}
+.mainImg h4{
+  color: white;
+  text-align: end;
+  padding: 20px;
+  font-size: 30px;
+  font-style: italic;
+  margin: 0;
+}
+
+.mainContentImg img{
+  width: 200px;
+  height: 250px;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px ;
+}
+
+.mainContentImg{
+  border: 3px solid black;
+}
+
+.mainContentText h6{
+  margin: 0;
+  font-size: 20px;
+}
+
+footer{
+  margin: 20px 10px;
+  width: 95%;
+  background-color: #2d74d0;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid white;
+}
+
+footer p{
+  margin: 5px;
+}
+
+footer span{
+  color: rgb(113, 15, 113);
+}
+

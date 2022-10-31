@@ -1,0 +1,164 @@
+body{
+  background-color: rgb(205, 202, 202);
+}
+.gridFull{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(11, 3fr 1fr) 3fr;
+  grid-template-rows: repeat(13, 1fr);
+}
+
+.gridFull div{
+  background-color: rgb(227, 85, 85);
+  color: white;
+}
+
+span{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.class111{
+  grid-column: 1 /2;
+  grid-row: 2 /3;
+}
+
+.class112{
+  grid-column: 3 /4;
+  grid-row: 2 /3;
+}
+
+.class113{
+  grid-column: 5 /6;
+  grid-row: 2 /3;
+}
+
+.class114{
+  grid-column: 7 /8;
+  grid-row: 2 /3;
+}
+
+.class115{
+  grid-column: 9 /10;
+  grid-row: 2 /3;
+}
+
+.class116{
+  grid-column: 11 /12;
+  grid-row: 2 /3;
+}
+
+.class117{
+  grid-column: 13 /14;
+  grid-row: 2 /3;
+}
+
+.class118{
+  grid-column: 15 /16;
+  grid-row: 2 /3;
+}
+
+.class119{
+  grid-column: 17 /18;
+  grid-row: 2 /3;
+}
+
+.class120{
+  grid-column: 19 /20;
+  grid-row: 2 /3;
+}
+
+.class121{
+  grid-column: 21 /22;
+  grid-row: 2 /3;
+}
+
+.class122{
+  grid-column: 23 /24;
+  grid-row: 2 /3;
+}
+
+.class21{
+  grid-column: 1 /4;
+  grid-row: 4 /5;
+}
+
+.class22{
+  grid-column: 5 /8;
+  grid-row: 4 /5;
+}
+.class23{
+  grid-column: 9 /12;
+  grid-row: 4 /5;
+}
+.class24{
+  grid-column: 13 /16;
+  grid-row: 4 /5;
+}
+.class25{
+  grid-column: 17 /20;
+  grid-row: 4 /5;
+}
+.class26{
+  grid-column: 21 /24;
+  grid-row: 4 /5;
+}
+
+
+.class31{
+  grid-column: 1 /6;
+  grid-row: 6 /7;
+}
+
+.class32{
+  grid-column: 7 /12;
+  grid-row: 6 /7;
+}
+
+.class33{
+  grid-column: 13 /18;
+  grid-row: 6 /7;
+}
+
+.class34{
+  grid-column: 19 /24;
+  grid-row: 6 /7;
+}
+
+.class41{
+  grid-column: 1 /8;
+  grid-row: 8 /9;
+}
+
+.class42{
+  grid-column: 9 /16;
+  grid-row: 8 /9;
+}
+
+.class43{
+  grid-column: 17 /24;
+  grid-row: 8 /9;
+}
+
+.class61{
+  grid-column: 1 /12;
+  grid-row: 10 /11;
+}
+
+.class62{
+  grid-column: 13 /24;
+  grid-row: 10 /11;
+}
+
+.class8{
+  grid-column: 1 /18;
+  grid-row: 12 /13;
+}
+
+.class81{
+  grid-column: 19 /24;
+  grid-row: 12 /13;
+}

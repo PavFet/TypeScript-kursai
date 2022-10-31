@@ -1,0 +1,300 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+body{
+  color: rgb(209, 204, 204);
+}
+
+#bigGridTask{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+
+#bigGridTask > div{
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+}
+.fonas{
+  background: url(./nature.jpg);
+  background-size: cover;
+}
+/* NR1 */
+.nr1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+.nr1_2, .nr1_3, .nr1_6{
+  grid-column: span 2;
+}
+
+/* NR2 */
+.nr2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+.nr2_2, .nr2_4 {
+  grid-row: span 2;
+}
+.nr2_6 {
+  grid-row: 2 / 4;
+}
+
+
+/* NR3 */
+.nr3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+.nr3_1{
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+/* NR4 */
+.nr4{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1px;
+}
+.nr4_1, .nr4_3, .nr4_9, .nr4_11{
+  grid-column: span 2;
+}
+
+.nr4_5{
+  grid-area: 2 / 2 / 4 / 5;
+}
+
+/* NR5 */
+
+.nr5{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr 1fr 2fr;
+  gap: 1px;
+}
+
+.nr5_2{
+  grid-column: 2 / 5;
+}
+
+.nr5_3{
+  grid-area: 2 / 1 / 4 / 2;
+}
+
+.nr5_6{
+  grid-area: 2 / 4 / 4 / 5;
+}
+
+.nr5_9{
+  grid-column: span 3;
+}
+
+/* NR6 */
+.nr6{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  gap: 1px;
+}
+
+.nr6_1{
+  grid-column: span 4;
+}
+.nr6_4, .nr6_5{
+  grid-row: span 2;
+}
+
+.nr6_6{
+  grid-column: span 2;
+}
+/* NR7 */
+.nr7{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 1px;
+}
+.nr7_1{
+  grid-area: 1 / 1 / 3 / 3;
+}
+.nr7_5{
+  grid-area: 3 / 2 / 5 / 4;
+}
+/* NR8 */
+.nr8{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  gap: 1px;
+}
+.nr8_1{
+  grid-area: 1 / 1 / 2 / 4;
+}
+.nr8_3{
+  grid-row: span 2;
+}
+/* NR9 */
+/* NR8 */
+.nr9{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+  gap: 1px;
+}
+.nr9_1{
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+.nr9_5{
+  grid-column: span 3;
+  grid-row: span 2;
+}
+.nr9_8, .nr9_9 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/* NR10 */
+.nr10{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+.nr10_1{
+  grid-area: 1 / 1 /  3 / 3;
+}
+.nr10_3, .nr10_5, .nr10_12, .nr10_11 {
+  grid-row: span 2;
+}
+.nr10_7{
+  grid-area: 3 / 3 / 5 / 5;
+}
+.nr10_9{
+  grid-area: 5 / 1 / 7 /  3;
+}
+/* NR11 */
+.nr11{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 4fr 1fr;
+  gap: 1px;
+}
+.nr11_1{
+  grid-column: span 5;
+}
+/* NR12 */
+.nr12{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;
+}
+/* NR13 */
+.nr13{
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1px;
+}
+
+
+/* NR14 */
+.nr14{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1px;
+}
+.nr14_3, .nr14_8{
+  grid-row: span 3;
+}
+.nr14_5{
+  grid-area: 2 / 1 / 4 / 3;
+}
+.nr14_12{
+  grid-area: 4 / 3 / 7 / 5;
+}
+/* NR15 */
+.nr15{
+  display: grid;
+  grid-template-columns: 4fr  1fr 2fr 2fr 1fr 4fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1px;
+}
+.nr15_1, .nr15_2, .nr15_3, .nr15_5, .nr15_6, .nr15_8, .nr15_9, .nr15_10, .nr15_12, .nr15_13{
+  grid-column: span 2;
+}
+/* NR16 */
+.nr16{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2fr 2fr 1fr 1fr;
+  gap: 1px;
+}
+.nr16_1, .nr16_2{
+  grid-column: span 4;
+}
+.nr16_3, .nr16_5{
+  grid-row: span 2;
+}
+
+/* NR17 */
+.nr17{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 1px;
+}
+.nr17_1{
+  grid-area: 1 / 1 / 5 / 2;
+}
+.nr17_2, .nr17_5{
+  grid-column: span 2;
+}
+/* NR18 */
+.nr18{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr 2fr;
+  gap: 1px;
+}
+.nr18_2, .nr18_4, .nr18_5, .nr18_6, .nr18_7{
+  grid-row: span 2;
+}
+/* NR19 */
+.nr19{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+  gap: 1px;
+}
+.nr19_1{
+  grid-area: 1 / 1 / 4 /  4;
+}
+
+.nr19_2{
+  grid-column: span 2;
+}
+.nr19_7{
+  grid-row: span 2;
+}
+.nr19_10{
+  grid-area: 4 / 4 / 6 / 6;
+}
+/* NR19 */
+.nr20{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1px;
+}

@@ -1,0 +1,65 @@
+@media (min-width: 700px){
+  .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .navigacija{
+    width: 15%;
+  }
+  .menu a{
+    margin-right: 15px;
+    height: 45px;
+  }
+
+  .mainContentFull{
+    display: flex;
+  }
+  .mainContent{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+ 
+  .mainContentImg img{
+    width: 100%;
+    height: 218px;
+}
+.mainContentText h6 {
+  margin-top: 20px;
+}
+footer{
+  margin: 20px;
+}
+.mainImg h4 {
+  font-size: 40px;
+}
+.mainImg{
+  height: 500px;
+}
+}
+
+@media (min-width: 990px){
+  .mainContentFull{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+.mainContent{
+  display: flex;
+  flex-direction: row;
+}
+.mainContentImg img{
+  width: 200px;
+  height: 218px;
+  padding: 20px;
+}
+.mainContentText h6{
+  margin: 0;
+}
+.mainContentFull{
+  margin-top: 20px;
+}
+
+}

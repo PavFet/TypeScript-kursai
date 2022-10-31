@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(205, 202, 202);
+}
+#section{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.pav{
+  background-color: red;
+  font-size: 20px;
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+}
+
+.apr{
+  background-color: red;
+  font-size: 20px;
+  grid-column: 2 / 4;
+  grid-row: 5 / 8;
+}
+
+.img{
+  background-color: red;
+  font-size: 20px;
+  grid-column: 5 / 8;
+  grid-row: 2 / 8;
+}
+
+
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}

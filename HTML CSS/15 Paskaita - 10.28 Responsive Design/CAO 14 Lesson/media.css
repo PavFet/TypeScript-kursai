@@ -1,0 +1,50 @@
+@media (max-width: 450px){
+  header, main {
+    padding: 0 15px;
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: column;
+  }
+  .menu a{
+    text-decoration: underline;
+    color:rgb(72 156 197);
+
+  }
+
+  .menu a:not(:last-child){
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(225, 223, 223);
+  }
+
+.leftBottom{
+  display: none;
+}
+
+.fullMain{
+  flex-direction: column;
+}
+
+.leftTop{
+  flex-grow: 0.2;
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.left{
+  height: 40px;
+  flex-grow: none;
+}
+.leftTop p{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.right{
+  display: inline-block;
+}
+
+}

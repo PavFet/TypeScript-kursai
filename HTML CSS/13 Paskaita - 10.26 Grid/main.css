@@ -1,0 +1,30 @@
+
+.grid1{
+  width: 800px;
+  margin: 0 auto;
+  display: grid;
+  /* grid-template-columns: 100px 250px 1fr 2fr 50px;
+  grid-template-rows: repeat(4, 50px) 100px; */
+  grid-template: repeat(4, 50px) 100px / 100px 250px 1fr 2fr 50px;
+  gap: 10px;
+}
+
+.grid1 > div {
+  background-color: aqua;
+}
+
+.kitur1{
+  grid-row-start: 4; 
+  grid-column-start: 3;
+  grid-row-end: 6;
+  grid-column-end: 5;
+}
+
+.kitur2{
+  grid-column: 1 / 3; 
+  grid-row: 3 / 5;
+}
+
+.kitur3{
+  grid-area: 1/ 4 / 3 / 6;
+}
