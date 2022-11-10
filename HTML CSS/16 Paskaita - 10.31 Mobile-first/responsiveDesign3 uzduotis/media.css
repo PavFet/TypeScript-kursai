@@ -1,0 +1,82 @@
+@media (min-width:750px){
+  #menuToggle span{
+    display: none;
+  }
+  #menu{
+    margin: 0;
+    padding-right: 200px;
+    position: static;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+  }
+  #menu a{
+    margin-right: 20px;
+    font-size: 30px;
+    color: blue;
+  }
+  #menuToggle{
+    margin-right: 20px;
+  }
+  .logo{
+    width: 90px;
+  height: 120px;
+  }
+  .logo p{
+    font-size: 20px;
+  }
+
+  header{
+    height: 104px;
+  }
+  .books3{
+    display: block;
+    display: flex;
+  justify-content: space-between;
+  }
+
+  .books {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+.books img{
+  width: 100px;
+  height: 150px;
+}
+/* @keyframes anim {
+  5% { transform: translateX(-5%)  scale(1.2); }
+  10% { transform: translateX(-10%) rotate(9999deg) scale(1.2); }
+  90% { transform: translateX(-90%)  rotate(9999deg) scale(1.2); }
+  95% { transform: translateX(-95%) rotate(9999deg) scale(1.2); }
+  100% { transform: translateX(-100%) rotate(360deg); }
+}
+
+.mainImg img {
+  animation: anim 4s;
+  animation-fill-mode: none;
+} */
+
+  footer{
+    display: flex;
+  }
+
+  .mainContent{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    
+  }
+}
+
+
+@media (min-width:950px){
+  .mainImg img{
+
+    width: 350px;
+    height: 500px;
+  }
+}

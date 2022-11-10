@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>17 Paskaita - Animation and Transition</title>
+</head>
+<body>
+  <main>
+    <section id="transition">
+      <h1>Transition</h1>
+      <ul>
+        <li>transition-property - nurodai kurie stiliai suteikiami vykstant tranzicijai</li>
+        <li>transition-duration - nurodai per kiek laiko ivyks tranzicija</li>
+        <li>transition-timing-function - nurodai kaip tranzicija vyksta per pateikta laika</li>
+        <li>transition-delay - nurodai po kiek laiko prades vykti tranzicija</li>
+        <li>transition - (transition-property  -  transition-duration -  transition-timing-function - transition-delay)</li>
+        <li></li>
+      </ul>
+
+    </section>
+    <section id="transitionPvz">
+      <div class="kvadratas"></div>
+    </section>
+    <section id="timingFunctions">
+      <h1>Timing functions</h1>
+      <ul>
+        <li>linear</li>
+        <li>ease</li>
+        <li>ease-in</li>
+        <li>ease-out</li>
+        <li>ease-in-out</li>
+        <li>step-start</li>
+        <li>step-end</li>
+        <li>cubic-bezier</li>
+      </ul>
+    </section>
+    <section id="transform">
+      <h1>Transform</h1>
+      <h3>Scale</h3>
+      <p>
+        Scale - scaleX; scaleY; scaleZ; scale; scale3d; <br>
+        Scale nusako kaip keiciasi elemento dydis. Default dydis yra 1.
+      </p>
+      <h3>Translate</h3>
+      <p>
+        Translate: translateX; translateY; translateZ; translate; translate3d;  <br>
+        Translate nusako i kuria puse ir kokiu atstumu elementas pajudes.
+      </p>
+      <h3>Rotate</h3>
+      <p>
+        Rotate:  rotateX; rotateY; rotateZ; rotate; rotate3d.
+        <br>
+        Rotate nusako kurioje asyje ir kiek elementas suksis.
+      </p>
+      <h3>Skew</h3>
+      <p>
+        Skew: skewX; skewY; skew; <br>
+        Skew nusako kaip yra istempiami elemento kampai.
+      </p>
+    </section>
+    <section id="animation">
+      <h1>Animation</h1>
+      <ul>
+        <li>animation-duration - animacijos trukme</li>
+        <li>animation-timing-function - animacijos vykdymas  per pateikta laika</li>
+        <li>animation-delay - animacijos uzlaikymas</li>
+        <li>animation-iteration-count - animacijos vykdymo kartai </li>
+        <li>animation-direction - animacijos vykdymo kriptis</li>
+        <li>animation-fill-mode  - nusako kokia bus elemento busena pries ir/ar po animacijos</li>
+        <li>animation-play-state  - animacijos busena</li>
+        <li>animation-name - animacijos vardas </li>
+        <li>animation - apjungia visus animacijos nustatymus</li>
+        <h1>KeyFrames</h1>
+        <p>
+          @keyframes animation-name { .... } <br>
+          Animacijos frame'ai aprasomi nuo (from) - iki (to) arba procentaliai nuo(0%) iki (100%). <br>
+          Animacijos laikas yra  skirstomas frame'ams pagal ju procentalius nurodymus
+        </p>
+      </ul>
+    </section>
+    <section id="animationPvz">
+      <div class="anim1"></div>
+    </section>
+  </main>
+</body>
+</html>

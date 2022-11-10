@@ -20,11 +20,13 @@
     display: flex;
     flex-direction: column-reverse;
   }
-
+.mainContentImg{
+  height: 223px;
+}
  
   .mainContentImg img{
     width: 100%;
-    height: 218px;
+    height: 223px;
 }
 .mainContentText h6 {
   margin-top: 20px;
@@ -52,7 +54,7 @@ footer{
 }
 .mainContentImg img{
   width: 200px;
-  height: 218px;
+  height: 184px;
   padding: 20px;
 }
 .mainContentText h6{

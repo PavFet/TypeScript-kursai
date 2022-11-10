@@ -1,0 +1,240 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+:root{
+  --color-violet: rgb(110, 1, 226);
+}
+
+.rightHeader i{
+  color: var(--color-violet);
+  margin-left: 15px;
+}
+
+.leftHeader a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.leftHeader span{
+  color: var(--color-violet);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 3px 10px -2px gray;
+  background-color: white;
+}
+
+body{
+  background-color: rgb(248 250 252);
+}
+
+main{
+  text-align: -webkit-center;
+}
+
+.tasks{
+  width: 300px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.tasks input[type=text]{
+  background-color:rgb(248 250 252);
+  border: 1px solid rgba(0, 0, 0, 0.34);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  margin: 0;
+  border-right: none;
+}
+
+.tasks h1{
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tasks input[type=submit]{
+  width: 60px;
+  background-color: var(--color-violet);
+  color: white;
+  border-style: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin: 0;
+}
+
+.textAndBtn{
+  display: flex;
+  justify-content: center;
+}
+
+.tasks p{
+  color: rgb(151, 0, 0);
+  text-align: left;
+  margin: 0;
+  padding-left: 22px;
+  font-size: 6px;
+}
+
+.bi-trash3{
+  color: red;
+  font-size: 7px;
+}
+.bi-pencil-square{
+  color: green;
+  font-size: 7px;
+}
+
+.take{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 7px 10px -2px gray;
+}
+
+.textTake p{
+  font-size: 14px;
+}
+
+.icons i{
+  display: flex;
+  align-items: center;
+}
+
+.textTake{
+  margin-left: 20px;
+}
+
+.icons{
+  margin-right: 20px;
+  display: flex;
+}
+
+.walk{
+  margin-top: 30px;
+  display: flex;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 3px 2px -2px gray;
+  margin-bottom: 20px;
+}
+
+.iconCheck{
+  display: flex;
+  align-items: center;
+  flex: 10%;
+}
+
+.textTWalk{
+  display: flex;
+  flex: 75%;
+}
+
+.textTWalk p{
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.bi-check-circle{
+  margin-left: 8px;
+  font-size: 7px;
+}
+
+.edit{
+  text-align: -webkit-center;
+  width: 50px;
+}
+
+.edit a{
+  display: block;
+  width: 58px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--color-violet);
+  color: white;
+  font-size: 10px;
+  border: 1px solid black;
+}
+
+.edit a:hover{
+  background-color: violet;
+  transition: 2s ease;
+}
+
+.edit{
+  margin-top: 20px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 3px 2px -2px gray;
+  text-align: -webkit-center;
+}
+
+.mainInfo{
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin: 0 20px;
+}
+
+input[type=checkbox]{
+  margin-top: 5px;
+}
+
+.checkboxInput{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h6{
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+.inputTake input[type=text]{
+background-color: rgb(248 250 252);
+border: 0.5px solid rgba(0, 0, 0, 0.265);
+}
+
+.buttonEdit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type=submit]{
+  width: 87%;
+  font-size: 10px;
+  background-color: var(--color-violet);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit p{
+  color: rgb(151, 0, 0);
+  text-align: center;
+  font-size: 6px;
+  padding-bottom: 20px;
+}
+
+.backBtn{
+ text-align: center;
+ margin: 20px 0;
+}
+
+.backBtn a{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+ }

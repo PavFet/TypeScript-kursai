@@ -1,0 +1,35 @@
+@media (min-width: 800px) {
+  .navigation{
+    flex-direction: row;
+}
+section.headerRight {
+  display: flex;
+  align-items: flex-end;
+}
+.navigation a{
+  margin-left: 5px;
+}
+
+.allOffers{
+  display: flex;
+  flex-direction: row;
+}
+
+.offer2{
+  margin: 0 20px;
+}
+
+.contactsAndForm{
+  display: flex;
+}
+.imgArrow img{
+  display: block;
+  width: 90px;
+  height: 80px;
+}
+
+.imgArrow {
+  display: flex;
+  justify-content: flex-end;
+}
+}

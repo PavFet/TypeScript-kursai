@@ -1,0 +1,215 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.logo{
+  width: 150px;
+  height: 200px;
+  background-color: black;
+}
+
+.logo p{
+  color: white;
+  font-size: 30px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 55px;
+  left: -36px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; 
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+
+}
+#menu
+{
+  position: absolute;
+  width: 191px;
+  margin: -100px 0 -200px 300px;
+  margin: -214px 0 0 0;
+  margin: -207px 0 -8px -711px;
+  padding: 19px;
+  padding-top: 126px;
+  margin-left: -231px;
+  background: #ededed;
+  list-style-type: none;
+  transform: translate(0, -100%);
+  transition: transform 0.5s;
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+.mainImg img{
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 400px;
+}
+
+.mainText h4{
+  font-size: 30px;
+}
+
+.mainText span{
+  color: orange;
+}
+
+.mainText{
+  margin: 0 20px;
+}
+
+.mainText p{
+  font-size: 22px;
+}
+
+.mainText p>a{
+  text-decoration: none;
+  color: rgb(79, 79, 244);
+}
+
+.mainContent{
+  border-top: 2px solid rgb(192, 176, 176);
+  border-bottom: 1px solid black;
+  box-shadow: 2px 2px 2px grey;
+  margin: 20px 0;
+  padding-top: 20px;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+}
+
+.books1, .books2, .books3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookInfo button{
+  width: 75px;
+  height: 30px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.books img{
+  width: 150px;
+  height: 200px;
+}
+
+.books{
+  margin: 0 20px;
+}
+.bookInfo{
+  margin-left: 30px;
+}
+
+.bookInfo p{
+  font-size: 20px;
+}
+
+.bookInfo p:nth-child(3){
+  color: blue;
+}
+
+.books3{
+  display: none;
+}
+
+footer{
+  display: flex;
+  border-top: 2px solid rgb(192, 176, 176);
+  margin: 20px;
+  gap: 10px;
+}
+
+input[type=submit]{
+  width: 120px;
+  height: 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.footerLeft a{
+  text-decoration: none;
+  color: rgb(66, 66, 224);
+  font-size: 20px;
+}
+
+input[type=text]{
+  border: 1px solid rgb(71, 69, 69);
+  border-radius: 6px;
+}
+
+footer{
+  display: none;
+}

@@ -1,0 +1,333 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+/* HEADER START */
+
+.main_color {
+  color: #645CFF;
+}
+
+* {
+  font-family:  'Roboto', sans-serif;
+  ;
+}
+
+header {
+  padding: 20px 10px;
+}
+
+.navigationIcons{
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}
+
+.headerNavigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerNavigation {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.navigationLinks {
+  display: none;
+}
+
+/* HEADER END */
+
+/* HERO START */
+
+.heroExplore{
+  height: 100vh;
+
+  background-color: #645CFF;
+}
+
+.heroExplore *{
+  color: white;
+  text-decoration: justify;
+  text-align: center;
+}
+
+.heroExplore h1 {
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  font-weight: 100;
+  letter-spacing: 0.4rem;
+}
+
+.heroExplore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroExplore button{
+  background-color: #645CFF;
+  border: 1px solid rgba(0, 0, 0, 0.062);
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: rgba(63, 67, 72, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.5s linear;
+}
+
+.heroExplore button:hover{
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.heroExplore img{
+  display: none;
+}
+
+/* HERO END */
+
+.aboutUs{
+  height: 800px;
+  margin: 0 50px 50px 50px;
+}
+
+.tittleFontForMobile h1{
+  text-transform: uppercase;
+  font-size: 3.2em;
+    letter-spacing: 0.6rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.aboutUs img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contentTitleFontForMobile{
+  text-transform: uppercase;
+  font-size: 32px;
+    font-weight: 100;
+    margin: 40px 0 20px;
+}
+
+.aboutUs p{
+  text-align: justify;
+}
+
+.aboutUs a{
+  color: blue;
+}
+
+.aboutUsBorderInvisible{
+  display: none;
+}
+
+/* ABOUT US END */
+
+/* OUR SERVICES START */
+
+.ourServices{
+  background-color: #F9FBFC;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.ourServicesAllCards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 40px;
+  row-gap: 40px;
+}
+
+.ourServiceCardIcon{
+  width: 50px;
+  height: 50px;
+  background-color: #645CFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourServiceCardIcon i{
+  font-size: 2rem;
+}
+.ourServicesCard{
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* OUR SERVICES END  */
+
+/* FEATURED TOURS START  */
+.featuredCardImage{
+  position: relative;
+
+}
+
+.featuredCardImage p{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: #645CFF;
+  margin: 0;
+  padding: 5px 5px 5px 0;
+}
+.featuredCardBottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featuredTours{
+  margin: 0 50px;
+}
+
+.featuredCardImage img{
+  width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+}
+.featuredAllCard{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 40px;
+}
+
+.featuredAllCard h3, .featuredCardBottom{
+  padding: 0 30px;
+}
+
+.featuredTours a{
+  color: #645CFF;
+  margin: 0 auto;
+  display: flex; 
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.featuredAllCard{
+  transition: 0.5s linear;
+}
+
+.featuredAllCard:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* FEATURED TOURS END  */
+
+/* OUR GALLERY START */
+.ourGallery{
+  background-color: #F9FBFC;
+}
+
+.ourGalleryFull{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ourGalleryImgaes img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 10px;
+
+}
+
+.ourGalleryImgaes{
+  background-color: #645CFF;
+}
+
+.ourGallery h1{
+  padding-top: 50px;
+}
+
+.ourGalleryContent{
+  display: flex;
+  background-color:#645CFF;
+  color: white;
+  padding: 0 20px;
+  padding-bottom: 40px;
+  gap: 10px;
+}
+
+.ourGalleryContentLeft h3{
+  color: white;
+}
+
+
+.ourGalleryContentRight{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.ourGalleryContentRight input[type=email]{
+  width: 100%;
+  border: none;
+  background-color: white;
+  height: 40px;
+}
+
+.ourGalleryContentRight input[type=submit]{
+  text-transform: uppercase;
+  font-weight: 100;
+  border: none;
+  
+  padding: 1px;
+  height: 40px;
+  box-shadow: 0px 0px 0px 1px  white;
+}
+
+/* OUR GALLERY END */
+
+/* FOOTER START */
+.footerIcons{
+  display: flex;
+}
+
+
+
+.footerLinks, footer > p{
+  color: white;
+  display: block;
+}
+
+.footerLinks{
+  display: flex;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+footer{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  height: 130px;
+}
+
+.bi-twitter{
+  margin: 0 10px;
+}

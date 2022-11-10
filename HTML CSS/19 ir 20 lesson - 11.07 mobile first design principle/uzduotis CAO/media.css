@@ -1,0 +1,135 @@
+@media (min-width: 700px){
+  
+
+  .navigationLinks{
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .heroExplore {
+    position: relative;
+    background-color: none;
+  }
+
+  .heroExplore h1, p, button{
+    z-index: 100;
+  }
+
+.heroExplore img{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 50;
+}
+
+.aboutUsContent {
+  display: flex;
+  column-gap: 30px;
+  position: relative;
+}
+
+.aboutUs{
+  height: 60vh;
+}
+
+.aboutUs img{
+  width: 300px;
+  height: 200px;
+
+}
+.titleFontForDekstop h1 {
+  font-size: 1.5rem;
+}
+
+.contentTitleFontForDekstop h3, .contentTitleFontForDekstop {
+  font-size: 1.1rem;
+}
+
+.paragraphForDekstop  p, .paragraphForDekstop{
+  font-size: 0.6rem;
+}
+
+.aboutUsText a{
+  font-size: 0.6rem;
+}
+
+.aboutUsBorderInvisible{
+  display: block;
+  border: 5px solid #645CFF;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  z-index: -1;
+}
+
+.ourServicesCard{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+
+}
+
+.ourServiceCardIcon{
+  width: 100px;
+  margin-bottom: 13px;
+  margin-right: 10px;
+}
+
+.ourServicesCardText h3{
+  margin: 0;
+}
+
+
+.ourServices{
+  background-color: #F9FBFC;
+  height: 300px;
+
+}
+
+.ourServicesAllCards{
+  column-gap: 10px;
+  justify-content: space-between;
+}
+
+.featuredFull{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.featuredAllCard{
+  max-width: 200px;
+
+}
+
+.featuredAllCard:hover {
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ourGalleryImgaes{
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.ourGalleryImgaes img{
+margin:0;
+}
+
+.ourGalleryContentLeft{
+  width: 100%;
+}
+.ourGalleryContentLeft h3{
+  font-size: 40px;
+  text-align: center;
+}
+}

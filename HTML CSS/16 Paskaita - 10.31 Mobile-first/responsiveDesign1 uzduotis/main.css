@@ -47,6 +47,7 @@ height: 140px;
 .mainContentImg img{
   width: 200px;
   height: 250px;
+  
 }
 
 .mainContent {
@@ -57,6 +58,7 @@ height: 140px;
 
 .mainContentImg{
   border: 3px solid black;
+  height: 250px;
 }
 
 .mainContentText h6{
